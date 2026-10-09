@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T00:00:00+05:30",
+  "updated_at": "2026-10-09T12:07:54+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -16,12 +16,13 @@
         "qib": 12.68,
         "nii": 6.55,
         "retail": 1.39,
-        "employee": 2.40,
+        "employee": 2.4,
         "total": 5.71
       },
       "applications": 3841852,
       "source": "https://www.chittorgarh.com/ipo/nse-ipo/3151/",
-      "details_url": "https://www.chittorgarh.com/ipo/nse-ipo/3151/"
+      "details_url": "https://www.chittorgarh.com/ipo/nse-ipo/3151/",
+      "status": "Closed"
     }
   ]
 }

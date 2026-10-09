@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IPO Share — Live IPO Dashboard</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: #0b1020; color: #e6e9f2; }
+  header { padding: 22px 24px; background: linear-gradient(135deg,#1a2350,#0b1020); border-bottom: 1px solid #222b4f; }
+  header h1 { margin: 0; font-size: 26px; }
+  header p { margin: 6px 0 0; color: #9aa3c7; font-size: 13px; }
+  .wrap { padding: 18px 24px; }
+  .stats { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; }
+  .stat { background: #141b35; border: 1px solid #222b4f; border-radius: 10px; padding: 10px 16px; min-width: 130px; }
+  .stat b { display: block; font-size: 20px; }
+  .stat span { font-size: 12px; color: #9aa3c7; }
+  .controls { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 14px; align-items: center; }
+  .tabs button, select, input { background: #141b35; color: #e6e9f2; border: 1px solid #2b3670; border-radius: 8px; padding: 8px 12px; font-size: 14px; }
+  .tabs button { cursor: pointer; margin-right: 4px; }
+  .tabs button.active { background: #3b5bdb; border-color: #3b5bdb; }
+  input { min-width: 220px; }
+  .table-wrap { overflow-x: auto; border: 1px solid #222b4f; border-radius: 10px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid #1b2347; white-space: nowrap; }
+  th { background: #141b35; color: #9aa3c7; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: .3px; position: sticky; top: 0; }
+  tr:hover td { background: #101733; }
+  .num { text-align: right; font-variant-numeric: tabular-nums; }
+  .badge { padding: 3px 9px; border-radius: 999px; font-size: 12px; font-weight: 600; }
+  .Open { background: #0f3d2a; color: #5ee69a; }
+  .Upcoming { background: #3a3110; color: #ffd866; }
+  .Closed { background: #2a2f45; color: #b7bfdc; }
+  .Listed { background: #1d2f5c; color: #8ab4ff; }
+  .hot { color: #5ee69a; font-weight: 700; }
+  .cold { color: #ff7b7b; }
+  .muted { color: #6f7aa3; }
+  a { color: #8ab4ff; text-decoration: none; }
+  .note { font-size: 12px; color: #6f7aa3; margin-top: 12px; line-height: 1.6; }
+  .empty { padding: 30px; text-align: center; color: #6f7aa3; }
+</style>
+</head>
+<body>
+<header>
+  <h1>📈 IPO Share</h1>
+  <p>Live IPO list • QIB (FII/DII) • NII • Retail • Employee subscription • Listed IPOs 30 din tak dikhte hain</p>
+</header>
+<div class="wrap">
+  <div class="stats">
+    <div class="stat"><b id="sTotal">0</b><span>Total IPO (dashboard par)</span></div>
+    <div class="stat"><b id="sOpen">0</b><span>Open</span></div>
+    <div class="stat"><b id="sUpcoming">0</b><span>Upcoming</span></div>
+    <div class="stat"><b id="sListed">0</b><span>Listed (last 30 din)</span></div>
+    <div class="stat"><b id="sUpdated" style="font-size:13px">—</b><span>Last updated (IST)</span></div>
+  </div>
+
+  <div class="controls">
+    <div class="tabs" id="tabs">
+      <button data-f="all" class="active">All</button>
+      <button data-f="Open">Open</button>
+      <button data-f="Upcoming">Upcoming</button>
+      <button data-f="Closed">Closed</button>
+      <button data-f="Listed">Listed</button>
+    </div>
+    <select id="segment">
+      <option value="">Mainboard + SME</option>
+      <option value="Mainboard">Mainboard</option>
+      <option value="SME">SME</option>
+    </select>
+    <select id="sort">
+      <option value="close">Sort: Close date (new first)</option>
+      <option value="total">Sort: Total subscription (high→low)</option>
+      <option value="qib">Sort: QIB (high→low)</option>
+      <option value="retail">Sort: Retail (high→low)</option>
+      <option value="name">Sort: Name (A→Z)</option>
+    </select>
+    <input id="search" placeholder="Company / symbol search...">
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Company</th>
+          <th>Status</th>
+          <th>Segment</th>
+          <th>Open</th>
+          <th>Close</th>
+          <th>Listing</th>
+          <th>Price Band</th>
+          <th class="num">Issue (₹ Cr)</th>
+          <th class="num">GMP</th>
+          <th class="num">QIB (FII/DII) x</th>
+          <th class="num">NII x</th>
+          <th class="num">Retail x</th>
+          <th class="num">Employee x</th>
+          <th class="num">Total x</th>
+          <th>Details</th>
+        </tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+    <div id="empty" class="empty" style="display:none">Koi IPO nahi mila.</div>
+  </div>
+
+  <p class="note">
+    <b>Note:</b> QIB subscription me FII + DII (aur mutual funds, insurance, banks) dono shamil hote hain — public data me FII aur DII alag-alag nahi aate.
+    Subscription figures "x" = kitni baar oversubscribed (1.00x = pura issue book). Yeh sirf information ke liye hai, investment advice nahi.
+    Listed IPO 30 din (lagbhag 1 mahina) ke baad dashboard se automatically hat jaate hain.
+  </p>
+</div>
+
+<script>
+const DATA = {"updated_at": "2026-10-09T00:00:00+05:30", "ipos": [{"id": "nse-2026", "company": "National Stock Exchange of India", "symbol": "NSE", "segment": "Mainboard", "open_date": null, "close_date": "2026-09-23", "listing_date": null, "price_band": null, "issue_size_cr": null, "gmp": null, "subscription": {"qib": 12.68, "nii": 6.55, "retail": 1.39, "employee": 2.4, "total": 5.71}, "applications": 3841852, "source": "https://www.chittorgarh.com/ipo/nse-ipo/3151/", "details_url": "https://www.chittorgarh.com/ipo/nse-ipo/3151/"}]};
+const KEEP_DAYS = 30;
+const today = new Date(new Date().toLocaleString("en-US", { timeZone: "Asia/Kolkata" }));
+today.setHours(0,0,0,0);
+
+function dateObj(s){ return s ? new Date(s + "T00:00:00") : null; }
+function fmt(s){ if(!s) return "—"; const d = dateObj(s); return d.toLocaleDateString("en-IN", {day:"2-digit", month:"short", year:"numeric"}); }
+function x(v){ return (v === null || v === undefined || v === "") ? "—" : Number(v).toFixed(2) + "x"; }
+function cls(v){ return v >= 1 ? "hot" : (v !== null && v !== undefined ? "cold" : "muted"); }
+
+function computeStatus(i){
+  const ld = dateObj(i.listing_date);
+  if (ld && today >= ld) return "Listed";
+  const cd = dateObj(i.close_date), od = dateObj(i.open_date);
+  if (cd && today <= cd) return (od && today < od) ? "Upcoming" : "Open";
+  return "Closed";
+}
+
+// Listed IPOs: 30 din baad hide
+function visible(i){
+  const ld = dateObj(i.listing_date);
+  if (!ld) return true;
+  const days = (today - ld) / 86400000;
+  return days <= KEEP_DAYS;
+}
+
+let filter = "all";
+const all = (DATA.ipos || []).filter(visible).map(i => ({...i, _status: computeStatus(i)}));
+
+function render(){
+  const q = document.getElementById("search").value.trim().toLowerCase();
+  const seg = document.getElementById("segment").value;
+  const sort = document.getElementById("sort").value;
+
+  let list = all.filter(i =>
+    (filter === "all" || i._status === filter) &&
+    (!seg || i.segment === seg) &&
+    (!q || (i.company + " " + (i.symbol||"")).toLowerCase().includes(q))
+  );
+
+  const s = i => i.subscription || {};
+  const cmpDesc = (f) => (a,b) => (f(b) ?? -1) - (f(a) ?? -1);
+  const sorters = {
+    close: (a,b) => (dateObj(b.close_date)||0) - (dateObj(a.close_date)||0),
+    total: cmpDesc(i => s(i).total),
+    qib: cmpDesc(i => s(i).qib),
+    retail: cmpDesc(i => s(i).retail),
+    name: (a,b) => a.company.localeCompare(b.company)
+  };
+  list.sort(sorters[sort]);
+
+  const tb = document.getElementById("rows");
+  tb.innerHTML = list.map(i => {
+    const sb = s(i);
+    return `<tr>
+      <td><b>${i.company}</b>${i.symbol ? `<div class="muted">${i.symbol}</div>` : ""}</td>
+      <td><span class="badge ${i._status}">${i._status}</span></td>
+      <td>${i.segment || "—"}</td>
+      <td>${fmt(i.open_date)}</td>
+      <td>${fmt(i.close_date)}</td>
+      <td>${fmt(i.listing_date)}</td>
+      <td>${i.price_band || "—"}</td>
+      <td class="num">${i.issue_size_cr ?? "—"}</td>
+      <td class="num">${i.gmp ?? "—"}</td>
+      <td class="num ${cls(sb.qib)}">${x(sb.qib)}</td>
+      <td class="num ${cls(sb.nii)}">${x(sb.nii)}</td>
+      <td class="num ${cls(sb.retail)}">${x(sb.retail)}</td>
+      <td class="num ${cls(sb.employee)}">${x(sb.employee)}</td>
+      <td class="num ${cls(sb.total)}"><b>${x(sb.total)}</b></td>
+      <td>${i.details_url ? `<a href="${i.details_url}" target="_blank">Details ↗</a>` : "—"}</td>
+    </tr>`;
+  }).join("");
+
+  document.getElementById("empty").style.display = list.length ? "none" : "block";
+
+  document.getElementById("sTotal").textContent = all.length;
+  document.getElementById("sOpen").textContent = all.filter(i => i._status === "Open").length;
+  document.getElementById("sUpcoming").textContent = all.filter(i => i._status === "Upcoming").length;
+  document.getElementById("sListed").textContent = all.filter(i => i._status === "Listed").length;
+}
+
+document.querySelectorAll("#tabs button").forEach(b => b.onclick = () => {
+  document.querySelectorAll("#tabs button").forEach(x => x.classList.remove("active"));
+  b.classList.add("active"); filter = b.dataset.f; render();
+});
+["segment","sort","search"].forEach(id => document.getElementById(id).addEventListener("input", render));
+document.getElementById("sUpdated").textContent = DATA.updated_at ? new Date(DATA.updated_at).toLocaleString("en-IN") : "—";
+render();
+</script>
+</body>
+</html>

@@ -18,9 +18,10 @@ TEMPLATE = ROOT / "template.html"
 KEEP_DAYS = 60  # listed IPO 2 mahine tak dikhega
 IST = dt.timezone(dt.timedelta(hours=5, minutes=30))
 
+ET_LISTED_URL = "https://economictimes.indiatimes.com/markets/ipo/recently-listed/mainboard"
+
 SOURCES = [
     ("Mainboard", "https://www.chittorgarh.com/report/ipo-in-india-list-main-board-sme/82/mainboard/"),
-    ("SME", "https://www.chittorgarh.com/report/ipo-in-india-list-main-board-sme/82/sme/"),
 ]
 
 DATE_FORMATS = ["%d %b %Y", "%d %B %Y", "%b %d %Y", "%B %d %Y", "%d-%b-%Y", "%d-%m-%Y", "%d/%m/%Y"]
@@ -87,6 +88,9 @@ def parse_detail(body, rows):
     d["close_date"] = c or c2 or o2
     d["listing_date"] = parse_date(label_value(body, ["Listed on", "Listing Date"]))
     d["price_band"] = label_value(body, ["Price Band"])
+    ip = label_value(body, ["Issue Price"])
+    m2 = re.search(r"₹\s*([\d,]+(?:\.\d+)?)", ip or "")
+    d["issue_price"] = to_num(m2.group(1)) if m2 else None
 
     m = re.search(r"agg\.?\s*up to\s*₹\s*([\d,]+(?:\.\d+)?)\s*Cr", body)
     d["issue_size_cr"] = to_num(m.group(1)) if m else None
@@ -140,6 +144,43 @@ def ipo_id(url):
     return f"{m.group(1)}-{m.group(2)}" if m else re.sub(r"[^a-z0-9]+", "-", url.lower())
 
 
+STOP = {"ltd", "limited", "ltd.", "india", "the", "of", "and", "&", "(india)", "(", ")"}
+
+
+def name_key(name):
+    """'Nityas Gems & Jewellery Ltd.' -> 'nityas gems' (pehle 2 shabd)."""
+    name = re.sub(r"[^a-z0-9& ()]", " ", (name or "").lower())
+    toks = [t for t in name.split() if t not in STOP]
+    return " ".join(toks[:2])
+
+
+def price_num(s):
+    m = re.search(r"₹\s*([\d,]+(?:\.\d+)?)", s or "")
+    return to_num(m.group(1)) if m else None
+
+
+async def fetch_listing_prices(page):
+    """Economic Times 'recently listed mainboard' se issue price + listing (open) price."""
+    out = {}
+    try:
+        await page.goto(ET_LISTED_URL, wait_until="domcontentloaded", timeout=60000)
+        await page.wait_for_timeout(6000)
+        rows = await page.eval_on_selector_all(
+            "table tr",
+            "rs => rs.map(r => Array.from(r.querySelectorAll('th,td')).map(c => c.innerText.trim()))",
+        )
+    except Exception as e:
+        print("ET listing source failed", e)
+        return out
+    for r in rows:
+        if len(r) < 5 or "Mainboard" not in r[0]:
+            continue
+        name = r[0].split("\n")[0]
+        out[name_key(name)] = {"issue_price": price_num(r[3]), "listing_price": price_num(r[4])}
+    print("ET listing prices:", len(out))
+    return out
+
+
 def status(ipo, today):
     ld = ipo.get("listing_date")
     if ld and today >= dt.date.fromisoformat(ld):
@@ -181,7 +222,7 @@ async def main():
                 iid = ipo_id(it["url"])
                 existing = by_id.get(iid)
                 # Listed IPO ka data dobara fetch nahi karte
-                if existing and existing.get("status") == "Listed":
+                if existing and existing.get("status") == "Listed" and existing.get("issue_price") is not None:
                     continue
                 try:
                     d = await get_detail(page, it["url"])
@@ -209,11 +250,24 @@ async def main():
                     by_id[iid] = rec
                 print("  updated:", rec["company"], rec.get("subscription", {}).get("total") if rec.get("subscription") else "no subscription yet")
 
+        # Listing price (open) + issue price: Economic Times se merge
+        lp = await fetch_listing_prices(page)
+        for i in db["ipos"]:
+            hit = lp.get(name_key(i.get("company", "")))
+            if not hit:
+                continue
+            if hit["listing_price"] is not None:
+                i["listing_price"] = hit["listing_price"]
+            if i.get("issue_price") is None and hit["issue_price"] is not None:
+                i["issue_price"] = hit["issue_price"]
+
         await browser.close()
 
     # Retention: 60 din baad hatao
     kept = []
     for i in db["ipos"]:
+        if i.get("segment") != "Mainboard":
+            continue
         ref = reference_date(i)
         if ref and (today - ref).days > KEEP_DAYS:
             continue

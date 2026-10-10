@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>IPO Share — Live IPO Dashboard</title>
+<title>IPO Share — Mainboard IPO Dashboard</title>
 <style>
   * { box-sizing: border-box; }
   body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: #0b1020; color: #e6e9f2; }
@@ -31,6 +31,8 @@
   .Upcoming { background: #3a3110; color: #ffd866; }
   .Closed { background: #2a2f45; color: #b7bfdc; }
   .Listed { background: #1d2f5c; color: #8ab4ff; }
+  .up { color: #3ddc84; font-weight: 700; }
+  .down { color: #ff5c5c; font-weight: 700; }
   .hot { color: #5ee69a; font-weight: 700; }
   .cold { color: #ff7b7b; }
   .muted { color: #6f7aa3; }
@@ -41,12 +43,12 @@
 </head>
 <body>
 <header>
-  <h1>📈 IPO Share</h1>
-  <p>Live IPO list • QIB (FII/DII) • NII • Retail • Employee subscription • Listed IPOs 2 mahine (60 din) tak dikhte hain</p>
+  <h1>📈 IPO Share — Mainboard</h1>
+  <p>Mainboard IPO • Issue price vs listing price • QIB (FII/DII) • NII • Retail • Employee subscription • Listed IPO 2 mahine (60 din) tak dikhte hain</p>
 </header>
 <div class="wrap">
   <div class="stats">
-    <div class="stat"><b id="sTotal">0</b><span>Total IPO (dashboard par)</span></div>
+    <div class="stat"><b id="sTotal">0</b><span>Total Mainboard IPO</span></div>
     <div class="stat"><b id="sOpen">0</b><span>Open</span></div>
     <div class="stat"><b id="sUpcoming">0</b><span>Upcoming</span></div>
     <div class="stat"><b id="sListed">0</b><span>Listed (last 60 din)</span></div>
@@ -61,11 +63,6 @@
       <button data-f="Closed">Closed</button>
       <button data-f="Listed">Listed</button>
     </div>
-    <select id="segment">
-      <option value="">Mainboard + SME</option>
-      <option value="Mainboard">Mainboard</option>
-      <option value="SME">SME</option>
-    </select>
     <select id="sort">
       <option value="close">Sort: Close date (new first)</option>
       <option value="total">Sort: Total subscription (high→low)</option>
@@ -73,7 +70,7 @@
       <option value="retail">Sort: Retail (high→low)</option>
       <option value="name">Sort: Name (A→Z)</option>
     </select>
-    <input id="search" placeholder="Company / symbol search...">
+    <input id="search" placeholder="Company search...">
   </div>
 
   <div class="table-wrap">
@@ -82,13 +79,9 @@
         <tr>
           <th>Company</th>
           <th>Status</th>
-          <th>Segment</th>
-          <th>Open</th>
-          <th>Close</th>
-          <th>Listing</th>
           <th>Price Band</th>
-          <th class="num">Issue (₹ Cr)</th>
-          <th class="num">GMP</th>
+          <th class="num">Issue Price ₹</th>
+          <th class="num">Listing Price ₹</th>
           <th class="num">QIB (FII/DII) x</th>
           <th class="num">NII x</th>
           <th class="num">Retail x</th>
@@ -103,9 +96,9 @@
   </div>
 
   <p class="note">
-    <b>Note:</b> QIB subscription me FII + DII (aur mutual funds, insurance, banks) dono shamil hote hain — public data me FII aur DII alag-alag nahi aate.
-    Subscription figures "x" = kitni baar oversubscribed (1.00x = pura issue book). Yeh sirf information ke liye hai, investment advice nahi.
-    Listed IPO 60 din (lagbhag 2 mahine) ke baad dashboard se automatically hat jaate hain.
+    <b>Rang (colour):</b> Listing price, issue price se zyada ho to <span class="up">green</span>, kam ho to <span class="down">red</span>.<br>
+    <b>Note:</b> QIB subscription me FII + DII (aur mutual funds, insurance, banks) dono shamil hote hain. Public data me FII aur DII alag-alag nahi aate.
+    Subscription "x" = kitni baar oversubscribed (1.00x = pura issue book). Yeh sirf information ke liye hai, investment advice nahi.
   </p>
 </div>
 
@@ -116,9 +109,9 @@ const today = new Date(new Date().toLocaleString("en-US", { timeZone: "Asia/Kolk
 today.setHours(0,0,0,0);
 
 function dateObj(s){ return s ? new Date(s + "T00:00:00") : null; }
-function fmt(s){ if(!s) return "—"; const d = dateObj(s); return d.toLocaleDateString("en-IN", {day:"2-digit", month:"short", year:"numeric"}); }
 function x(v){ return (v === null || v === undefined || v === "") ? "—" : Number(v).toFixed(2) + "x"; }
-function cls(v){ return v >= 1 ? "hot" : (v !== null && v !== undefined ? "cold" : "muted"); }
+function cls(v){ return (v === null || v === undefined) ? "muted" : (v >= 1 ? "hot" : "cold"); }
+function rupee(v){ return (v === null || v === undefined || v === "") ? "—" : Number(v).toFixed(2); }
 
 function computeStatus(i){
   const ld = dateObj(i.listing_date);
@@ -135,22 +128,31 @@ function visible(i){
   return (today - ref) / 86400000 <= KEEP_DAYS;
 }
 
+// Listing price vs issue price rang
+function priceClass(i){
+  if (i.listing_price == null || i.issue_price == null) return "muted";
+  if (i.listing_price > i.issue_price) return "up";
+  if (i.listing_price < i.issue_price) return "down";
+  return "muted";
+}
+
 let filter = "all";
-const all = (DATA.ipos || []).filter(visible).map(i => ({...i, _status: computeStatus(i)}));
+const all = (DATA.ipos || [])
+  .filter(i => i.segment === "Mainboard")
+  .filter(visible)
+  .map(i => ({...i, _status: computeStatus(i)}));
 
 function render(){
   const q = document.getElementById("search").value.trim().toLowerCase();
-  const seg = document.getElementById("segment").value;
   const sort = document.getElementById("sort").value;
 
   let list = all.filter(i =>
     (filter === "all" || i._status === filter) &&
-    (!seg || i.segment === seg) &&
     (!q || (i.company + " " + (i.symbol||"")).toLowerCase().includes(q))
   );
 
   const s = i => i.subscription || {};
-  const cmpDesc = (f) => (a,b) => (f(b) ?? -1) - (f(a) ?? -1);
+  const cmpDesc = f => (a,b) => (f(b) ?? -1) - (f(a) ?? -1);
   const sorters = {
     close: (a,b) => (dateObj(b.close_date)||0) - (dateObj(a.close_date)||0),
     total: cmpDesc(i => s(i).total),
@@ -160,19 +162,14 @@ function render(){
   };
   list.sort(sorters[sort]);
 
-  const tb = document.getElementById("rows");
-  tb.innerHTML = list.map(i => {
+  document.getElementById("rows").innerHTML = list.map(i => {
     const sb = s(i);
     return `<tr>
       <td><b>${i.company}</b>${i.symbol ? `<div class="muted">${i.symbol}</div>` : ""}</td>
       <td><span class="badge ${i._status}">${i._status}</span></td>
-      <td>${i.segment || "—"}</td>
-      <td>${fmt(i.open_date)}</td>
-      <td>${fmt(i.close_date)}</td>
-      <td>${fmt(i.listing_date)}</td>
       <td>${i.price_band || "—"}</td>
-      <td class="num">${i.issue_size_cr ?? "—"}</td>
-      <td class="num">${i.gmp ?? "—"}</td>
+      <td class="num">${rupee(i.issue_price)}</td>
+      <td class="num ${priceClass(i)}"><b>${rupee(i.listing_price)}</b></td>
       <td class="num ${cls(sb.qib)}">${x(sb.qib)}</td>
       <td class="num ${cls(sb.nii)}">${x(sb.nii)}</td>
       <td class="num ${cls(sb.retail)}">${x(sb.retail)}</td>
@@ -183,7 +180,6 @@ function render(){
   }).join("");
 
   document.getElementById("empty").style.display = list.length ? "none" : "block";
-
   document.getElementById("sTotal").textContent = all.length;
   document.getElementById("sOpen").textContent = all.filter(i => i._status === "Open").length;
   document.getElementById("sUpcoming").textContent = all.filter(i => i._status === "Upcoming").length;
@@ -192,11 +188,13 @@ function render(){
 
 document.querySelectorAll("#tabs button").forEach(b => b.onclick = () => {
   document.querySelectorAll("#tabs button").forEach(x => x.classList.remove("active"));
-  b.classList.add("active"); filter = b.dataset.f; render();
+  b.classList.add("active");
+  filter = b.dataset.f;
+  render();
 });
-["segment","sort","search"].forEach(id => document.getElementById(id).addEventListener("input", render));
+["sort","search"].forEach(id => document.getElementById(id).addEventListener("input", render));
 document.getElementById("sUpdated").textContent = DATA.updated_at ? new Date(DATA.updated_at).toLocaleString("en-IN") : "—";
 render();
 </script>
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a486e7bfccea7a30',t:'MTc5MTY0ODczMg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a48715c2becb7a1e',t:'MTc5MTY1MDYxNg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>

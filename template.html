@@ -42,14 +42,14 @@
 <body>
 <header>
   <h1>📈 IPO Share</h1>
-  <p>Live IPO list • QIB (FII/DII) • NII • Retail • Employee subscription • Listed IPOs 30 din tak dikhte hain</p>
+  <p>Live IPO list • QIB (FII/DII) • NII • Retail • Employee subscription • Listed IPOs 2 mahine (60 din) tak dikhte hain</p>
 </header>
 <div class="wrap">
   <div class="stats">
     <div class="stat"><b id="sTotal">0</b><span>Total IPO (dashboard par)</span></div>
     <div class="stat"><b id="sOpen">0</b><span>Open</span></div>
     <div class="stat"><b id="sUpcoming">0</b><span>Upcoming</span></div>
-    <div class="stat"><b id="sListed">0</b><span>Listed (last 30 din)</span></div>
+    <div class="stat"><b id="sListed">0</b><span>Listed (last 60 din)</span></div>
     <div class="stat"><b id="sUpdated" style="font-size:13px">—</b><span>Last updated (IST)</span></div>
   </div>
 
@@ -105,13 +105,13 @@
   <p class="note">
     <b>Note:</b> QIB subscription me FII + DII (aur mutual funds, insurance, banks) dono shamil hote hain — public data me FII aur DII alag-alag nahi aate.
     Subscription figures "x" = kitni baar oversubscribed (1.00x = pura issue book). Yeh sirf information ke liye hai, investment advice nahi.
-    Listed IPO 30 din (lagbhag 1 mahina) ke baad dashboard se automatically hat jaate hain.
+    Listed IPO 60 din (lagbhag 2 mahine) ke baad dashboard se automatically hat jaate hain.
   </p>
 </div>
 
 <script>
 const DATA = /*__DATA__*/null;
-const KEEP_DAYS = 30;
+const KEEP_DAYS = 60;
 const today = new Date(new Date().toLocaleString("en-US", { timeZone: "Asia/Kolkata" }));
 today.setHours(0,0,0,0);
 
@@ -128,12 +128,11 @@ function computeStatus(i){
   return "Closed";
 }
 
-// Listed IPOs: 30 din baad hide
+// Retention: listing date (warna close date) se 60 din tak dikhao
 function visible(i){
-  const ld = dateObj(i.listing_date);
-  if (!ld) return true;
-  const days = (today - ld) / 86400000;
-  return days <= KEEP_DAYS;
+  const ref = dateObj(i.listing_date) || dateObj(i.close_date);
+  if (!ref) return true;
+  return (today - ref) / 86400000 <= KEEP_DAYS;
 }
 
 let filter = "all";
@@ -199,5 +198,5 @@ document.querySelectorAll("#tabs button").forEach(b => b.onclick = () => {
 document.getElementById("sUpdated").textContent = DATA.updated_at ? new Date(DATA.updated_at).toLocaleString("en-IN") : "—";
 render();
 </script>
-</body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a486e7bfccea7a30',t:'MTc5MTY0ODczMg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>

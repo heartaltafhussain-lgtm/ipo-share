@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T22:04:57+05:30",
+  "updated_at": "2026-10-10T22:20:50+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -88,7 +88,9 @@
       },
       "source": "https://www.chittorgarh.com/ipo/vishal-nirmiti-ipo/2665/",
       "details_url": "https://www.chittorgarh.com/ipo/vishal-nirmiti-ipo/2665/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 220.0,
+      "listing_price": 215.0
     },
     {
       "id": "nityas-gems-jewellery-ipo-2974",
@@ -112,7 +114,9 @@
       },
       "source": "https://www.chittorgarh.com/ipo/nityas-gems-jewellery-ipo/2974/",
       "details_url": "https://www.chittorgarh.com/ipo/nityas-gems-jewellery-ipo/2974/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 75.0,
+      "listing_price": 80.0
     },
     {
       "id": "shah-investors-home-ipo-2657",
@@ -134,7 +138,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/shah-investors-home-ipo/2657/",
       "details_url": "https://www.chittorgarh.com/ipo/shah-investors-home-ipo/2657/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 167.0
     },
     {
       "id": "srit-india-ipo-2858",
@@ -156,7 +161,9 @@
       },
       "source": "https://www.chittorgarh.com/ipo/srit-india-ipo/2858/",
       "details_url": "https://www.chittorgarh.com/ipo/srit-india-ipo/2858/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 130.0,
+      "listing_price": 148.0
     },
     {
       "id": "runwal-enterprises-ipo-2298",
@@ -179,7 +186,9 @@
       },
       "source": "https://www.chittorgarh.com/ipo/runwal-enterprises-ipo/2298/",
       "details_url": "https://www.chittorgarh.com/ipo/runwal-enterprises-ipo/2298/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 305.0,
+      "listing_price": 305.0
     },
     {
       "id": "german-green-steel-and-power-ipo-2497",
@@ -201,7 +210,9 @@
       },
       "source": "https://www.chittorgarh.com/ipo/german-green-steel-and-power-ipo/2497/",
       "details_url": "https://www.chittorgarh.com/ipo/german-green-steel-and-power-ipo/2497/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 139.0,
+      "listing_price": 142.0
     },
     {
       "id": "orient-cables-ipo-2532",
@@ -223,7 +234,9 @@
       },
       "source": "https://www.chittorgarh.com/ipo/orient-cables-ipo/2532/",
       "details_url": "https://www.chittorgarh.com/ipo/orient-cables-ipo/2532/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 272.0,
+      "listing_price": 450.0
     },
     {
       "id": "snapdeal-ipo-2543",
@@ -245,7 +258,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/snapdeal-ipo/2543/",
       "details_url": "https://www.chittorgarh.com/ipo/snapdeal-ipo/2543/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 32.0
     },
     {
       "id": "a-one-steels-ipo-2000",
@@ -268,7 +282,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/a-one-steels-ipo/2000/",
       "details_url": "https://www.chittorgarh.com/ipo/a-one-steels-ipo/2000/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 405.0
     },
     {
       "id": "moneyview-ipo-2936",
@@ -290,7 +305,9 @@
       },
       "source": "https://www.chittorgarh.com/ipo/moneyview-ipo/2936/",
       "details_url": "https://www.chittorgarh.com/ipo/moneyview-ipo/2936/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 34.0,
+      "listing_price": 55.0
     },
     {
       "id": "armee-infotech-ipo-2140",
@@ -312,7 +329,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/armee-infotech-ipo/2140/",
       "details_url": "https://www.chittorgarh.com/ipo/armee-infotech-ipo/2140/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 375.0
     },
     {
       "id": "swastika-infra-ipo-2287",
@@ -334,7 +352,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/swastika-infra-ipo/2287/",
       "details_url": "https://www.chittorgarh.com/ipo/swastika-infra-ipo/2287/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 185.0
     },
     {
       "id": "elevate-campuses-ipo-2647",
@@ -356,7 +375,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/elevate-campuses-ipo/2647/",
       "details_url": "https://www.chittorgarh.com/ipo/elevate-campuses-ipo/2647/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 362.0
     },
     {
       "id": "adroit-industries-ipo-3007",
@@ -378,7 +398,9 @@
       },
       "source": "https://www.chittorgarh.com/ipo/adroit-industries-ipo/3007/",
       "details_url": "https://www.chittorgarh.com/ipo/adroit-industries-ipo/3007/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 134.0,
+      "listing_price": 235.0
     },
     {
       "id": "varmora-granito-ipo-2563",
@@ -400,7 +422,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/varmora-granito-ipo/2563/",
       "details_url": "https://www.chittorgarh.com/ipo/varmora-granito-ipo/2563/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 148.0
     },
     {
       "id": "sonaselection-india-ipo-2805",
@@ -422,7 +445,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/sonaselection-india-ipo/2805/",
       "details_url": "https://www.chittorgarh.com/ipo/sonaselection-india-ipo/2805/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 99.0
     },
     {
       "id": "nse-ipo-3151",
@@ -445,7 +469,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/nse-ipo/3151/",
       "details_url": "https://www.chittorgarh.com/ipo/nse-ipo/3151/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 1785.0
     },
     {
       "id": "hero-motors-ipo-2225",
@@ -467,7 +492,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/hero-motors-ipo/2225/",
       "details_url": "https://www.chittorgarh.com/ipo/hero-motors-ipo/2225/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 84.0
     },
     {
       "id": "jindal-supreme-ipo-2803",
@@ -489,7 +515,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/jindal-supreme-ipo/2803/",
       "details_url": "https://www.chittorgarh.com/ipo/jindal-supreme-ipo/2803/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 93.0
     },
     {
       "id": "ss-retail-ipo-2822",
@@ -512,7 +539,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/ss-retail-ipo/2822/",
       "details_url": "https://www.chittorgarh.com/ipo/ss-retail-ipo/2822/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 424.0
     },
     {
       "id": "manika-plastech-ipo-2483",
@@ -534,7 +562,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/manika-plastech-ipo/2483/",
       "details_url": "https://www.chittorgarh.com/ipo/manika-plastech-ipo/2483/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 43.0
     },
     {
       "id": "veegaland-developers-ipo-2834",
@@ -556,7 +585,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/veegaland-developers-ipo/2834/",
       "details_url": "https://www.chittorgarh.com/ipo/veegaland-developers-ipo/2834/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 140.0
     },
     {
       "id": "karamtara-engineering-ipo-2020",
@@ -578,7 +608,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/karamtara-engineering-ipo/2020/",
       "details_url": "https://www.chittorgarh.com/ipo/karamtara-engineering-ipo/2020/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 254.0
     },
     {
       "id": "lcc-projects-ipo-2086",
@@ -600,7 +631,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/lcc-projects-ipo/2086/",
       "details_url": "https://www.chittorgarh.com/ipo/lcc-projects-ipo/2086/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 146.0
     },
     {
       "id": "steamhouse-india-ipo-2514",
@@ -622,7 +654,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/steamhouse-india-ipo/2514/",
       "details_url": "https://www.chittorgarh.com/ipo/steamhouse-india-ipo/2514/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 81.0
     },
     {
       "id": "manipal-payment-and-identity-solutions-ipo-2524",
@@ -644,7 +677,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/manipal-payment-and-identity-solutions-ipo/2524/",
       "details_url": "https://www.chittorgarh.com/ipo/manipal-payment-and-identity-solutions-ipo/2524/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 339.0
     },
     {
       "id": "asset-reconstruction-ipo-2558",
@@ -666,7 +700,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/asset-reconstruction-ipo/2558/",
       "details_url": "https://www.chittorgarh.com/ipo/asset-reconstruction-ipo/2558/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 139.0
     },
     {
       "id": "rentomojo-ipo-2971",
@@ -689,7 +724,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/rentomojo-ipo/2971/",
       "details_url": "https://www.chittorgarh.com/ipo/rentomojo-ipo/2971/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 404.0
     },
     {
       "id": "glass-wall-systems-ipo-2594",
@@ -711,7 +747,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/glass-wall-systems-ipo/2594/",
       "details_url": "https://www.chittorgarh.com/ipo/glass-wall-systems-ipo/2594/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 182.0
     },
     {
       "id": "prasol-chemicals-ipo-2775",
@@ -733,7 +770,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/prasol-chemicals-ipo/2775/",
       "details_url": "https://www.chittorgarh.com/ipo/prasol-chemicals-ipo/2775/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 676.0
     },
     {
       "id": "kanohar-electricals-ipo-2856",
@@ -755,7 +793,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/kanohar-electricals-ipo/2856/",
       "details_url": "https://www.chittorgarh.com/ipo/kanohar-electricals-ipo/2856/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 632.0
     },
     {
       "id": "pranav-constructions-ipo-2127",
@@ -777,7 +816,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/pranav-constructions-ipo/2127/",
       "details_url": "https://www.chittorgarh.com/ipo/pranav-constructions-ipo/2127/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 124.0
     },
     {
       "id": "rays-of-belief-ipo-2787",
@@ -796,7 +836,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/rays-of-belief-ipo/2787/",
       "details_url": "https://www.chittorgarh.com/ipo/rays-of-belief-ipo/2787/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 239.0
     },
     {
       "id": "deepa-jewellers-ipo-2827",
@@ -815,7 +856,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/deepa-jewellers-ipo/2827/",
       "details_url": "https://www.chittorgarh.com/ipo/deepa-jewellers-ipo/2827/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 177.0
     },
     {
       "id": "purple-style-labs-ipo-2622",
@@ -835,7 +877,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/purple-style-labs-ipo/2622/",
       "details_url": "https://www.chittorgarh.com/ipo/purple-style-labs-ipo/2622/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 575.0
     },
     {
       "id": "esds-software-ipo-1198",
@@ -855,7 +898,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/esds-software-ipo/1198/",
       "details_url": "https://www.chittorgarh.com/ipo/esds-software-ipo/1198/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 429.0
     },
     {
       "id": "priority-jewels-ipo-2435",
@@ -875,7 +919,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/priority-jewels-ipo/2435/",
       "details_url": "https://www.chittorgarh.com/ipo/priority-jewels-ipo/2435/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 200.0
     },
     {
       "id": "lumino-industries-ipo-2013",
@@ -894,7 +939,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/lumino-industries-ipo/2013/",
       "details_url": "https://www.chittorgarh.com/ipo/lumino-industries-ipo/2013/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 82.0
     },
     {
       "id": "annu-projects-ipo-2500",
@@ -913,7 +959,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/annu-projects-ipo/2500/",
       "details_url": "https://www.chittorgarh.com/ipo/annu-projects-ipo/2500/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 99.0
     },
     {
       "id": "skyways-air-ipo-2510",
@@ -932,7 +979,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/skyways-air-ipo/2510/",
       "details_url": "https://www.chittorgarh.com/ipo/skyways-air-ipo/2510/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 138.0
     },
     {
       "id": "hy-tech-engineers-ipo-2591",
@@ -951,7 +999,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/hy-tech-engineers-ipo/2591/",
       "details_url": "https://www.chittorgarh.com/ipo/hy-tech-engineers-ipo/2591/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 53.0
     },
     {
       "id": "symbiotec-pharmalab-ipo-2815",
@@ -970,7 +1019,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/symbiotec-pharmalab-ipo/2815/",
       "details_url": "https://www.chittorgarh.com/ipo/symbiotec-pharmalab-ipo/2815/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 988.0
     },
     {
       "id": "augmont-enterprises-ipo-2673",
@@ -989,7 +1039,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/augmont-enterprises-ipo/2673/",
       "details_url": "https://www.chittorgarh.com/ipo/augmont-enterprises-ipo/2673/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 788.0
     },
     {
       "id": "tempsens-instruments-india-ipo-2668",
@@ -1008,7 +1059,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/tempsens-instruments-india-ipo/2668/",
       "details_url": "https://www.chittorgarh.com/ipo/tempsens-instruments-india-ipo/2668/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 300.0
     },
     {
       "id": "gaja-alternative-asset-management-ipo-2527",
@@ -1027,998 +1079,8 @@
       },
       "source": "https://www.chittorgarh.com/ipo/gaja-alternative-asset-management-ipo/2527/",
       "details_url": "https://www.chittorgarh.com/ipo/gaja-alternative-asset-management-ipo/2527/",
-      "status": "Listed"
-    },
-    {
-      "id": "ravita-engineering-services-ipo-2959",
-      "company": "Ravita Engineering Services Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-10-15",
-      "price_band": "₹105 to ₹112",
-      "issue_size_cr": 116.0,
-      "source": "https://www.chittorgarh.com/ipo/ravita-engineering-services-ipo/2959/",
-      "details_url": "https://www.chittorgarh.com/ipo/ravita-engineering-services-ipo/2959/",
-      "status": "Open"
-    },
-    {
-      "id": "vaibhav-vyapaar-ipo-3180",
-      "company": "Vaibhav Vyapaar Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-10-15",
-      "price_band": "₹51 to ₹54",
-      "issue_size_cr": 42.0,
-      "source": "https://www.chittorgarh.com/ipo/vaibhav-vyapaar-ipo/3180/",
-      "details_url": "https://www.chittorgarh.com/ipo/vaibhav-vyapaar-ipo/3180/",
-      "status": "Open"
-    },
-    {
-      "id": "rkfashion-accessories-ipo-3138",
-      "company": "R.K.Fashion Accessories Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-10-07",
-      "listing_date": "2026-10-12",
-      "price_band": "₹77 to ₹82",
-      "issue_size_cr": 35.0,
-      "subscription": {
-        "qib": 14.11,
-        "total": 2.7
-      },
-      "source": "https://www.chittorgarh.com/ipo/rkfashion-accessories-ipo/3138/",
-      "details_url": "https://www.chittorgarh.com/ipo/rkfashion-accessories-ipo/3138/",
-      "status": "Closed"
-    },
-    {
-      "id": "paramount-syntex-ipo-2743",
-      "company": "Paramount Syntex Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "open_date": "2026-09-30",
-      "close_date": "2026-10-06",
-      "listing_date": "2026-10-09",
-      "price_band": "₹119 to ₹127",
-      "issue_size_cr": 82.0,
-      "subscription": {
-        "qib": 119.29,
-        "total": 1.88
-      },
-      "source": "https://www.chittorgarh.com/ipo/paramount-syntex-ipo/2743/",
-      "details_url": "https://www.chittorgarh.com/ipo/paramount-syntex-ipo/2743/",
-      "status": "Listed"
-    },
-    {
-      "id": "acme-india-industries-ipo-2748",
-      "company": "Acme India Industries Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "open_date": "2026-09-30",
-      "close_date": "2026-10-06",
-      "listing_date": "2026-10-09",
-      "price_band": "₹186 to ₹196",
-      "issue_size_cr": 122.0,
-      "subscription": {
-        "qib": 137.93,
-        "total": 124.23
-      },
-      "source": "https://www.chittorgarh.com/ipo/acme-india-industries-ipo/2748/",
-      "details_url": "https://www.chittorgarh.com/ipo/acme-india-industries-ipo/2748/",
-      "status": "Listed"
-    },
-    {
-      "id": "tna-solutions-ipo-3216",
-      "company": "TNA Solutions Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "open_date": "2026-09-30",
-      "close_date": "2026-10-06",
-      "listing_date": "2026-10-09",
-      "price_band": "₹66 to ₹70",
-      "issue_size_cr": 38.0,
-      "subscription": {
-        "qib": 35.64,
-        "total": 55.2
-      },
-      "source": "https://www.chittorgarh.com/ipo/tna-solutions-ipo/3216/",
-      "details_url": "https://www.chittorgarh.com/ipo/tna-solutions-ipo/3216/",
-      "status": "Listed"
-    },
-    {
-      "id": "dove-soft-ipo-2424",
-      "company": "Dove Soft Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "open_date": "2026-09-30",
-      "close_date": "2026-10-05",
-      "listing_date": "2026-10-08",
-      "price_band": "₹104 to ₹111",
-      "issue_size_cr": 73.0,
-      "subscription": {
-        "qib": 1.0,
-        "total": 1.38
-      },
-      "source": "https://www.chittorgarh.com/ipo/dove-soft-ipo/2424/",
-      "details_url": "https://www.chittorgarh.com/ipo/dove-soft-ipo/2424/",
-      "status": "Listed"
-    },
-    {
-      "id": "sjp-ultrasonic-ipo-2703",
-      "company": "SJP Ultrasonics Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "open_date": "2026-09-30",
-      "close_date": "2026-10-05",
-      "listing_date": "2026-10-08",
-      "issue_size_cr": 23.0,
-      "subscription": {
-        "total": 1.82
-      },
-      "source": "https://www.chittorgarh.com/ipo/sjp-ultrasonic-ipo/2703/",
-      "details_url": "https://www.chittorgarh.com/ipo/sjp-ultrasonic-ipo/2703/",
-      "status": "Listed"
-    },
-    {
-      "id": "eventions-ipo-3006",
-      "company": "Eventions Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "open_date": "2026-09-30",
-      "close_date": "2026-10-05",
-      "listing_date": "2026-10-08",
-      "price_band": "₹112 to ₹118",
-      "issue_size_cr": 38.0,
-      "subscription": {
-        "qib": 26.18,
-        "total": 2.39
-      },
-      "source": "https://www.chittorgarh.com/ipo/eventions-ipo/3006/",
-      "details_url": "https://www.chittorgarh.com/ipo/eventions-ipo/3006/",
-      "status": "Listed"
-    },
-    {
-      "id": "sollfege-smart-electronics-ipo-3086",
-      "company": "Sollfege Smart Electronics Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "open_date": "2026-09-30",
-      "close_date": "2026-10-05",
-      "listing_date": "2026-10-08",
-      "issue_size_cr": 22.0,
-      "subscription": {
-        "total": 2.14
-      },
-      "source": "https://www.chittorgarh.com/ipo/sollfege-smart-electronics-ipo/3086/",
-      "details_url": "https://www.chittorgarh.com/ipo/sollfege-smart-electronics-ipo/3086/",
-      "status": "Listed"
-    },
-    {
-      "id": "omara-ventures-india-ipo-3194",
-      "company": "Omara Ventures India Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "open_date": "2026-09-30",
-      "close_date": "2026-10-05",
-      "listing_date": "2026-10-08",
-      "price_band": "₹296 to ₹311",
-      "issue_size_cr": 42.0,
-      "subscription": {
-        "qib": 1.0,
-        "total": 1.06
-      },
-      "source": "https://www.chittorgarh.com/ipo/omara-ventures-india-ipo/3194/",
-      "details_url": "https://www.chittorgarh.com/ipo/omara-ventures-india-ipo/3194/",
-      "status": "Listed"
-    },
-    {
-      "id": "everestims-technologies-ipo-2063",
-      "company": "EverestIMS Technologies Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "open_date": "2026-09-29",
-      "close_date": "2026-10-05",
-      "listing_date": "2026-10-08",
-      "price_band": "₹80 to ₹85",
-      "issue_size_cr": 48.0,
-      "subscription": {
-        "qib": 148.63,
-        "total": 294.22
-      },
-      "source": "https://www.chittorgarh.com/ipo/everestims-technologies-ipo/2063/",
-      "details_url": "https://www.chittorgarh.com/ipo/everestims-technologies-ipo/2063/",
-      "status": "Listed"
-    },
-    {
-      "id": "black-opal-consultants-ipo-2798",
-      "company": "Black Opal Consultants Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "open_date": "2026-09-29",
-      "close_date": "2026-10-01",
-      "listing_date": "2026-10-07",
-      "price_band": "₹185 to ₹197",
-      "issue_size_cr": 55.0,
-      "subscription": {
-        "qib": 59.77,
-        "total": 73.8
-      },
-      "source": "https://www.chittorgarh.com/ipo/black-opal-consultants-ipo/2798/",
-      "details_url": "https://www.chittorgarh.com/ipo/black-opal-consultants-ipo/2798/",
-      "status": "Listed"
-    },
-    {
-      "id": "papadmalji-agro-foods-ipo-2823",
-      "company": "Papadmalji Agro Foods Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "open_date": "2026-09-29",
-      "close_date": "2026-10-01",
-      "listing_date": "2026-10-07",
-      "price_band": "₹69 to ₹72",
-      "issue_size_cr": 20.0,
-      "subscription": {
-        "qib": 86.85,
-        "total": 2.54
-      },
-      "source": "https://www.chittorgarh.com/ipo/papadmalji-agro-foods-ipo/2823/",
-      "details_url": "https://www.chittorgarh.com/ipo/papadmalji-agro-foods-ipo/2823/",
-      "status": "Listed"
-    },
-    {
-      "id": "vans-electroengineerings-ipo-3197",
-      "company": "Vans Electroengineerings Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "open_date": "2026-09-29",
-      "close_date": "2026-10-01",
-      "listing_date": "2026-10-07",
-      "price_band": "₹112 to ₹118",
-      "issue_size_cr": 34.0,
-      "subscription": {
-        "qib": 281.65,
-        "employee": 0.95,
-        "total": 628.73
-      },
-      "source": "https://www.chittorgarh.com/ipo/vans-electroengineerings-ipo/3197/",
-      "details_url": "https://www.chittorgarh.com/ipo/vans-electroengineerings-ipo/3197/",
-      "status": "Listed"
-    },
-    {
-      "id": "shree-tnb-polymers-ipo-3095",
-      "company": "Shree TNB Polymers Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "open_date": "2026-09-28",
-      "close_date": "2026-10-05",
-      "listing_date": "2026-10-08",
-      "price_band": "₹50 to ₹53",
-      "issue_size_cr": 32.0,
-      "subscription": {
-        "qib": 1.7,
-        "total": 1.98
-      },
-      "source": "https://www.chittorgarh.com/ipo/shree-tnb-polymers-ipo/3095/",
-      "details_url": "https://www.chittorgarh.com/ipo/shree-tnb-polymers-ipo/3095/",
-      "status": "Listed"
-    },
-    {
-      "id": "pind-hospitality-ipo-2197",
-      "company": "Pind Hospitality Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-30",
-      "listing_date": "2026-10-06",
-      "price_band": "₹93 to ₹99",
-      "issue_size_cr": 18.0,
-      "subscription": {
-        "qib": 1.0,
-        "total": 2.71
-      },
-      "source": "https://www.chittorgarh.com/ipo/pind-hospitality-ipo/2197/",
-      "details_url": "https://www.chittorgarh.com/ipo/pind-hospitality-ipo/2197/",
-      "status": "Listed"
-    },
-    {
-      "id": "shivchem-agro-ipo-2695",
-      "company": "Shivchem Agro Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-30",
-      "listing_date": "2026-10-06",
-      "price_band": "₹59 to ₹62",
-      "issue_size_cr": 14.0,
-      "subscription": {
-        "qib": 1.0,
-        "total": 2.2
-      },
-      "source": "https://www.chittorgarh.com/ipo/shivchem-agro-ipo/2695/",
-      "details_url": "https://www.chittorgarh.com/ipo/shivchem-agro-ipo/2695/",
-      "status": "Listed"
-    },
-    {
-      "id": "acme-universal-safezone-9-ipo-3206",
-      "company": "Acme Universal Safezone 9 Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-30",
-      "listing_date": "2026-10-06",
-      "price_band": "₹65 to ₹71",
-      "issue_size_cr": 36.0,
-      "subscription": {
-        "qib": 31.29,
-        "total": 23.41
-      },
-      "source": "https://www.chittorgarh.com/ipo/acme-universal-safezone-9-ipo/3206/",
-      "details_url": "https://www.chittorgarh.com/ipo/acme-universal-safezone-9-ipo/3206/",
-      "status": "Listed"
-    },
-    {
-      "id": "sai-urja-indo-ipo-2655",
-      "company": "Sai Urja Indo Ventures Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-29",
-      "listing_date": "2026-10-05",
-      "price_band": "₹107 to ₹113",
-      "issue_size_cr": 25.0,
-      "subscription": {
-        "qib": 2.8,
-        "total": 4.95
-      },
-      "source": "https://www.chittorgarh.com/ipo/sai-urja-indo-ipo/2655/",
-      "details_url": "https://www.chittorgarh.com/ipo/sai-urja-indo-ipo/2655/",
-      "status": "Listed"
-    },
-    {
-      "id": "himalayan-solar-ipo-2716",
-      "company": "Himalayan Solar Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-29",
-      "listing_date": "2026-10-05",
-      "price_band": "₹98 to ₹103",
-      "issue_size_cr": 68.0,
-      "subscription": {
-        "qib": 1.66,
-        "total": 1.19
-      },
-      "source": "https://www.chittorgarh.com/ipo/himalayan-solar-ipo/2716/",
-      "details_url": "https://www.chittorgarh.com/ipo/himalayan-solar-ipo/2716/",
-      "status": "Listed"
-    },
-    {
-      "id": "dudani-retail-ipo-2998",
-      "company": "Dudani Retail Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-29",
-      "listing_date": "2026-10-05",
-      "issue_size_cr": 11.0,
-      "subscription": {
-        "total": 1.42
-      },
-      "source": "https://www.chittorgarh.com/ipo/dudani-retail-ipo/2998/",
-      "details_url": "https://www.chittorgarh.com/ipo/dudani-retail-ipo/2998/",
-      "status": "Listed"
-    },
-    {
-      "id": "bench-mark-infotech-services-ipo-3212",
-      "company": "Bench Mark Infotech Services Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-29",
-      "listing_date": "2026-10-05",
-      "price_band": "₹104 to ₹110",
-      "issue_size_cr": 42.0,
-      "subscription": {
-        "qib": 88.62,
-        "total": 103.12
-      },
-      "source": "https://www.chittorgarh.com/ipo/bench-mark-infotech-services-ipo/3212/",
-      "details_url": "https://www.chittorgarh.com/ipo/bench-mark-infotech-services-ipo/3212/",
-      "status": "Listed"
-    },
-    {
-      "id": "green-asia-impex-ipo-2963",
-      "company": "Green Asia Impex Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "open_date": "2026-09-24",
-      "close_date": "2026-10-01",
-      "listing_date": "2026-10-07",
-      "price_band": "₹84 to ₹89",
-      "issue_size_cr": 59.0,
-      "subscription": {
-        "qib": 2.06,
-        "total": 1.04
-      },
-      "source": "https://www.chittorgarh.com/ipo/green-asia-impex-ipo/2963/",
-      "details_url": "https://www.chittorgarh.com/ipo/green-asia-impex-ipo/2963/",
-      "status": "Listed"
-    },
-    {
-      "id": "roopa-screen-ipo-2651",
-      "company": "Roopa Screen Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-28",
-      "listing_date": "2026-10-01",
-      "price_band": "₹60 to ₹64",
-      "issue_size_cr": 19.0,
-      "subscription": {
-        "qib": 44.81,
-        "total": 271.94
-      },
-      "source": "https://www.chittorgarh.com/ipo/roopa-screen-ipo/2651/",
-      "details_url": "https://www.chittorgarh.com/ipo/roopa-screen-ipo/2651/",
-      "status": "Listed"
-    },
-    {
-      "id": "peshwa-wheat-ipo-2809",
-      "company": "Peshwa Wheat Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-28",
-      "listing_date": "2026-10-01",
-      "price_band": "₹95 to ₹101",
-      "issue_size_cr": 54.0,
-      "subscription": {
-        "qib": 177.12,
-        "total": 2.77
-      },
-      "source": "https://www.chittorgarh.com/ipo/peshwa-wheat-ipo/2809/",
-      "details_url": "https://www.chittorgarh.com/ipo/peshwa-wheat-ipo/2809/",
-      "status": "Listed"
-    },
-    {
-      "id": "core-integra-consulting-ipo-2605",
-      "company": "Coreintegra Consulting Services Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-25",
-      "listing_date": "2026-09-30",
-      "price_band": "₹74 to ₹78",
-      "issue_size_cr": 22.0,
-      "subscription": {
-        "qib": 1.05,
-        "total": 1.4
-      },
-      "source": "https://www.chittorgarh.com/ipo/core-integra-consulting-ipo/2605/",
-      "details_url": "https://www.chittorgarh.com/ipo/core-integra-consulting-ipo/2605/",
-      "status": "Listed"
-    },
-    {
-      "id": "pooja-logistics-ipo-2724",
-      "company": "Pooja Logistics Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-25",
-      "listing_date": "2026-09-30",
-      "price_band": "₹109 to ₹115",
-      "issue_size_cr": 44.0,
-      "subscription": {
-        "qib": 2.5,
-        "total": 3.11
-      },
-      "source": "https://www.chittorgarh.com/ipo/pooja-logistics-ipo/2724/",
-      "details_url": "https://www.chittorgarh.com/ipo/pooja-logistics-ipo/2724/",
-      "status": "Listed"
-    },
-    {
-      "id": "liqvd-digital-ipo-2750",
-      "company": "Liqvd Digital India Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-25",
-      "listing_date": "2026-09-30",
-      "price_band": "₹51 to ₹54",
-      "issue_size_cr": 39.0,
-      "subscription": {
-        "qib": 1.0,
-        "total": 5.08
-      },
-      "source": "https://www.chittorgarh.com/ipo/liqvd-digital-ipo/2750/",
-      "details_url": "https://www.chittorgarh.com/ipo/liqvd-digital-ipo/2750/",
-      "status": "Listed"
-    },
-    {
-      "id": "skoffset-ipo-3150",
-      "company": "S.K.Offset Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-25",
-      "listing_date": "2026-09-30",
-      "price_band": "₹119 to ₹125",
-      "issue_size_cr": 29.0,
-      "subscription": {
-        "qib": 2.61,
-        "total": 1.18
-      },
-      "source": "https://www.chittorgarh.com/ipo/skoffset-ipo/3150/",
-      "details_url": "https://www.chittorgarh.com/ipo/skoffset-ipo/3150/",
-      "status": "Listed"
-    },
-    {
-      "id": "unitec-fibres-ipo-3171",
-      "company": "Unitec Fibres Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-25",
-      "listing_date": "2026-09-30",
-      "price_band": "₹83 to ₹88",
-      "issue_size_cr": 34.0,
-      "subscription": {
-        "qib": 5.3,
-        "total": 3.92
-      },
-      "source": "https://www.chittorgarh.com/ipo/unitec-fibres-ipo/3171/",
-      "details_url": "https://www.chittorgarh.com/ipo/unitec-fibres-ipo/3171/",
-      "status": "Listed"
-    },
-    {
-      "id": "himalaya-nutravedics-ipo-2970",
-      "company": "Himalaya Nutravedics India Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-24",
-      "listing_date": "2026-09-29",
-      "price_band": "₹100 to ₹106",
-      "issue_size_cr": 26.0,
-      "subscription": {
-        "qib": 1.0,
-        "total": 2.33
-      },
-      "source": "https://www.chittorgarh.com/ipo/himalaya-nutravedics-ipo/2970/",
-      "details_url": "https://www.chittorgarh.com/ipo/himalaya-nutravedics-ipo/2970/",
-      "status": "Listed"
-    },
-    {
-      "id": "anand-seamless-ipo-3080",
-      "company": "Anand Seamless Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-24",
-      "listing_date": "2026-09-29",
-      "issue_size_cr": 26.0,
-      "subscription": {
-        "total": 1.47
-      },
-      "source": "https://www.chittorgarh.com/ipo/anand-seamless-ipo/3080/",
-      "details_url": "https://www.chittorgarh.com/ipo/anand-seamless-ipo/3080/",
-      "status": "Listed"
-    },
-    {
-      "id": "vivekanand-cotspin-ipo-2062",
-      "company": "Vivekanand Cotspin Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-23",
-      "listing_date": "2026-09-28",
-      "price_band": "₹32 to ₹37",
-      "issue_size_cr": 22.0,
-      "subscription": {
-        "qib": 1.26,
-        "total": 1.79
-      },
-      "source": "https://www.chittorgarh.com/ipo/vivekanand-cotspin-ipo/2062/",
-      "details_url": "https://www.chittorgarh.com/ipo/vivekanand-cotspin-ipo/2062/",
-      "status": "Listed"
-    },
-    {
-      "id": "fx-multitech-ipo-2849",
-      "company": "FX Multitech Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-23",
-      "listing_date": "2026-09-28",
-      "price_band": "₹110 to ₹116",
-      "issue_size_cr": 45.0,
-      "subscription": {
-        "qib": 20.95,
-        "total": 17.72
-      },
-      "source": "https://www.chittorgarh.com/ipo/fx-multitech-ipo/2849/",
-      "details_url": "https://www.chittorgarh.com/ipo/fx-multitech-ipo/2849/",
-      "status": "Listed"
-    },
-    {
-      "id": "robokidz-eduventures-ipo-3205",
-      "company": "Robokidz Eduventures Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-23",
-      "listing_date": "2026-09-28",
-      "price_band": "₹100 to ₹106",
-      "issue_size_cr": 31.0,
-      "subscription": {
-        "qib": 306.73,
-        "total": 833.56
-      },
-      "source": "https://www.chittorgarh.com/ipo/robokidz-eduventures-ipo/3205/",
-      "details_url": "https://www.chittorgarh.com/ipo/robokidz-eduventures-ipo/3205/",
-      "status": "Listed"
-    },
-    {
-      "id": "axiom-gas-engineering-ipo-2193",
-      "company": "Axiom Gas Engineering Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-22",
-      "listing_date": "2026-09-25",
-      "price_band": "₹51 to ₹54",
-      "issue_size_cr": 51.0,
-      "subscription": {
-        "qib": 1.1,
-        "total": 1.39
-      },
-      "source": "https://www.chittorgarh.com/ipo/axiom-gas-engineering-ipo/2193/",
-      "details_url": "https://www.chittorgarh.com/ipo/axiom-gas-engineering-ipo/2193/",
-      "status": "Listed"
-    },
-    {
-      "id": "kheria-autocomp-ipo-2760",
-      "company": "Kheria Autocomp Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-21",
-      "listing_date": "2026-09-24",
-      "price_band": "₹96 to ₹101",
-      "issue_size_cr": 46.0,
-      "subscription": {
-        "qib": 1.05,
-        "total": 2.48
-      },
-      "source": "https://www.chittorgarh.com/ipo/kheria-autocomp-ipo/2760/",
-      "details_url": "https://www.chittorgarh.com/ipo/kheria-autocomp-ipo/2760/",
-      "status": "Listed"
-    },
-    {
-      "id": "spectraa-technology-solutions-ipo-2950",
-      "company": "SpectraA Technology Solutions Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-21",
-      "listing_date": "2026-09-24",
-      "price_band": "₹112 to ₹118",
-      "issue_size_cr": 43.0,
-      "subscription": {
-        "qib": 184.55,
-        "total": 304.06
-      },
-      "source": "https://www.chittorgarh.com/ipo/spectraa-technology-solutions-ipo/2950/",
-      "details_url": "https://www.chittorgarh.com/ipo/spectraa-technology-solutions-ipo/2950/",
-      "status": "Listed"
-    },
-    {
-      "id": "quanto-agroworld-ipo-2390",
-      "company": "Quanto Agroworld Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-17",
-      "listing_date": "2026-09-22",
-      "issue_size_cr": 31.0,
-      "subscription": {
-        "total": 1.39
-      },
-      "source": "https://www.chittorgarh.com/ipo/quanto-agroworld-ipo/2390/",
-      "details_url": "https://www.chittorgarh.com/ipo/quanto-agroworld-ipo/2390/",
-      "status": "Listed"
-    },
-    {
-      "id": "shakti-polytarp-ipo-2427",
-      "company": "Shakti Polytarp Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-17",
-      "listing_date": "2026-09-22",
-      "price_band": "₹56 to ₹59",
-      "issue_size_cr": 27.0,
-      "subscription": {
-        "qib": 49.22,
-        "total": 11.87
-      },
-      "source": "https://www.chittorgarh.com/ipo/shakti-polytarp-ipo/2427/",
-      "details_url": "https://www.chittorgarh.com/ipo/shakti-polytarp-ipo/2427/",
-      "status": "Listed"
-    },
-    {
-      "id": "vama-wovenfab-ipo-2709",
-      "company": "Vama Wovenfab Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-17",
-      "listing_date": "2026-09-22",
-      "price_band": "₹324 to ₹341",
-      "issue_size_cr": 50.0,
-      "subscription": {
-        "qib": 1.0,
-        "total": 2.53
-      },
-      "source": "https://www.chittorgarh.com/ipo/vama-wovenfab-ipo/2709/",
-      "details_url": "https://www.chittorgarh.com/ipo/vama-wovenfab-ipo/2709/",
-      "status": "Listed"
-    },
-    {
-      "id": "century-business-media-ipo-2604",
-      "company": "Century Business Media Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-16",
-      "listing_date": "2026-09-21",
-      "price_band": "₹70 to ₹74",
-      "issue_size_cr": 17.0,
-      "subscription": {
-        "qib": 47.53,
-        "total": 57.93
-      },
-      "source": "https://www.chittorgarh.com/ipo/century-business-media-ipo/2604/",
-      "details_url": "https://www.chittorgarh.com/ipo/century-business-media-ipo/2604/",
-      "status": "Listed"
-    },
-    {
-      "id": "injecto-polymers-ipo-2625",
-      "company": "Injecto Polymers Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-16",
-      "listing_date": "2026-09-21",
-      "price_band": "₹98 to ₹100",
-      "issue_size_cr": 56.0,
-      "subscription": {
-        "qib": 1.57,
-        "total": 1.23
-      },
-      "source": "https://www.chittorgarh.com/ipo/injecto-polymers-ipo/2625/",
-      "details_url": "https://www.chittorgarh.com/ipo/injecto-polymers-ipo/2625/",
-      "status": "Listed"
-    },
-    {
-      "id": "panchatv-bharat-ipo-2373",
-      "company": "Panchatv Bharat Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-15",
-      "listing_date": "2026-09-18",
-      "issue_size_cr": 25.0,
-      "subscription": {
-        "total": 1.4
-      },
-      "source": "https://www.chittorgarh.com/ipo/panchatv-bharat-ipo/2373/",
-      "details_url": "https://www.chittorgarh.com/ipo/panchatv-bharat-ipo/2373/",
-      "status": "Listed"
-    },
-    {
-      "id": "raksan-transformers-ipo-2767",
-      "company": "Raksan Transformers Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-15",
-      "listing_date": "2026-09-18",
-      "price_band": "₹258 to ₹273",
-      "issue_size_cr": 150.0,
-      "subscription": {
-        "qib": 70.51,
-        "total": 47.43
-      },
-      "source": "https://www.chittorgarh.com/ipo/raksan-transformers-ipo/2767/",
-      "details_url": "https://www.chittorgarh.com/ipo/raksan-transformers-ipo/2767/",
-      "status": "Listed"
-    },
-    {
-      "id": "om-galaxy-ipo-2987",
-      "company": "Om Galaxy Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-15",
-      "listing_date": "2026-09-18",
-      "price_band": "₹85 to ₹90",
-      "issue_size_cr": 105.0,
-      "subscription": {
-        "qib": 5.37,
-        "total": 2.07
-      },
-      "source": "https://www.chittorgarh.com/ipo/om-galaxy-ipo/2987/",
-      "details_url": "https://www.chittorgarh.com/ipo/om-galaxy-ipo/2987/",
-      "status": "Listed"
-    },
-    {
-      "id": "maharaja-speedex-ipo-3089",
-      "company": "Maharaja & Speedex India Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-15",
-      "listing_date": "2026-09-18",
-      "price_band": "₹177 to ₹186",
-      "issue_size_cr": 80.0,
-      "subscription": {
-        "qib": 48.82,
-        "total": 32.41
-      },
-      "source": "https://www.chittorgarh.com/ipo/maharaja-speedex-ipo/3089/",
-      "details_url": "https://www.chittorgarh.com/ipo/maharaja-speedex-ipo/3089/",
-      "status": "Listed"
-    },
-    {
-      "id": "amtech-esters-ipo-2207",
-      "company": "Amtech Esters Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-11",
-      "listing_date": "2026-09-17",
-      "price_band": "₹71 to ₹75",
-      "issue_size_cr": 18.0,
-      "subscription": {
-        "qib": 15.07,
-        "total": 25.7
-      },
-      "source": "https://www.chittorgarh.com/ipo/amtech-esters-ipo/2207/",
-      "details_url": "https://www.chittorgarh.com/ipo/amtech-esters-ipo/2207/",
-      "status": "Listed"
-    },
-    {
-      "id": "vinod-texworld-ipo-2718",
-      "company": "Vinod Texworld Ltd.",
-      "symbol": "",
-      "segment": "SME",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-11",
-      "listing_date": "2026-09-17",
-      "issue_size_cr": 43.0,
-      "subscription": {
-        "total": 1.6
-      },
-      "source": "https://www.chittorgarh.com/ipo/vinod-texworld-ipo/2718/",
-      "details_url": "https://www.chittorgarh.com/ipo/vinod-texworld-ipo/2718/",
-      "status": "Listed"
+      "status": "Listed",
+      "issue_price": 160.0
     }
   ]
 }

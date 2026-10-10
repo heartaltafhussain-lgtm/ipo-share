@@ -11,12 +11,24 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
-        with: { python-version: "3.12" }
-      - run: python scripts/update_ipos.py
-      - run: |
+        with:
+          python-version: "3.12"
+
+      - name: Install Playwright + Chromium
+        run: |
+          pip install playwright
+          python -m playwright install --with-deps chromium
+
+      - name: Run updater
+        run: python scripts/update_ipos.py
+
+      - name: Commit changes
+        run: |
           git config user.name "ipo-bot"
           git config user.email "bot@users.noreply.github.com"
           git add data index.html

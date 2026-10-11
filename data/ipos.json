@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T09:10:47+05:30",
+  "updated_at": "2026-10-11T17:17:57+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -1081,6 +1081,33 @@
       "details_url": "https://www.chittorgarh.com/ipo/gaja-alternative-asset-management-ipo/2527/",
       "status": "Listed",
       "issue_price": 160.0
+    },
+    {
+      "id": "zetwerk-ipo-3091",
+      "company": "Zetwerk Manufacturing Business Ltd.",
+      "symbol": "",
+      "segment": "Mainboard",
+      "gmp": null,
+      "applications": null,
+      "first_seen": "2026-10-11",
+      "close_date": "2026-10-19",
+      "issue_size_cr": 2830.0,
+      "source": "https://www.chittorgarh.com/ipo/zetwerk-ipo/3091/",
+      "details_url": "https://www.chittorgarh.com/ipo/zetwerk-ipo/3091/",
+      "status": "Open"
+    },
+    {
+      "id": "tonbo-imaging-india-ipo-3215",
+      "company": "Tonbo Imaging India Ltd.",
+      "symbol": "",
+      "segment": "Mainboard",
+      "gmp": null,
+      "applications": null,
+      "first_seen": "2026-10-11",
+      "close_date": "2026-10-19",
+      "source": "https://www.chittorgarh.com/ipo/tonbo-imaging-india-ipo/3215/",
+      "details_url": "https://www.chittorgarh.com/ipo/tonbo-imaging-india-ipo/3215/",
+      "status": "Open"
     }
   ]
 }

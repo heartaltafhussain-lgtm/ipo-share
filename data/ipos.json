@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T02:43:17+05:30",
+  "updated_at": "2026-10-12T08:43:18+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -35,7 +35,9 @@
       "close_date": "2026-10-19",
       "source": "https://www.chittorgarh.com/ipo/sahajanand-medical-technologies-ipo/2550/",
       "details_url": "https://www.chittorgarh.com/ipo/sahajanand-medical-technologies-ipo/2550/",
-      "status": "Open"
+      "status": "Open",
+      "price_band": "₹327 to ₹344",
+      "issue_size_cr": 475.0
     },
     {
       "id": "fusion-cx-ipo-2455",
@@ -1091,10 +1093,11 @@
       "applications": null,
       "first_seen": "2026-10-11",
       "close_date": "2026-10-19",
-      "issue_size_cr": 2830.0,
+      "issue_size_cr": 5012.0,
       "source": "https://www.chittorgarh.com/ipo/zetwerk-ipo/3091/",
       "details_url": "https://www.chittorgarh.com/ipo/zetwerk-ipo/3091/",
-      "status": "Open"
+      "status": "Open",
+      "price_band": "₹143 to ₹151"
     },
     {
       "id": "tonbo-imaging-india-ipo-3215",
@@ -1107,7 +1110,9 @@
       "close_date": "2026-10-19",
       "source": "https://www.chittorgarh.com/ipo/tonbo-imaging-india-ipo/3215/",
       "details_url": "https://www.chittorgarh.com/ipo/tonbo-imaging-india-ipo/3215/",
-      "status": "Open"
+      "status": "Open",
+      "price_band": "₹665 to ₹700",
+      "issue_size_cr": 852.0
     }
   ]
 }

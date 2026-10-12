@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T08:43:18+05:30",
+  "updated_at": "2026-10-12T19:21:49+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -1113,6 +1113,21 @@
       "status": "Open",
       "price_band": "₹665 to ₹700",
       "issue_size_cr": 852.0
+    },
+    {
+      "id": "bonfiglioli-transmissions-ipo-2861",
+      "company": "Bonfiglioli Transmissions Ltd.",
+      "symbol": "",
+      "segment": "Mainboard",
+      "gmp": null,
+      "applications": null,
+      "first_seen": "2026-10-12",
+      "close_date": "2026-10-19",
+      "price_band": "₹558 to ₹586",
+      "issue_size_cr": 2534.0,
+      "source": "https://www.chittorgarh.com/ipo/bonfiglioli-transmissions-ipo/2861/",
+      "details_url": "https://www.chittorgarh.com/ipo/bonfiglioli-transmissions-ipo/2861/",
+      "status": "Open"
     }
   ]
 }

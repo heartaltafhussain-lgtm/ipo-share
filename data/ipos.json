@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T09:58:56+05:30",
+  "updated_at": "2026-10-13T18:39:53+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -67,7 +67,14 @@
       "issue_size_cr": 712.0,
       "source": "https://www.chittorgarh.com/ipo/hd-fire-protect-ipo/2628/",
       "details_url": "https://www.chittorgarh.com/ipo/hd-fire-protect-ipo/2628/",
-      "status": "Open"
+      "status": "Open",
+      "subscription": {
+        "qib": 1.04,
+        "nii": 11.43,
+        "retail": 3.84,
+        "employee": 2.96,
+        "total": 4.66
+      }
     },
     {
       "id": "vishal-nirmiti-ipo-2665",

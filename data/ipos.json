@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T03:49:19+05:30",
+  "updated_at": "2026-10-13T09:58:56+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -378,7 +378,8 @@
       "source": "https://www.chittorgarh.com/ipo/elevate-campuses-ipo/2647/",
       "details_url": "https://www.chittorgarh.com/ipo/elevate-campuses-ipo/2647/",
       "status": "Listed",
-      "issue_price": 362.0
+      "issue_price": 362.0,
+      "listing_price": 355.1
     },
     {
       "id": "adroit-industries-ipo-3007",

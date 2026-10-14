@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T05:32:21+05:30",
+  "updated_at": "2026-10-14T13:40:25+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -52,7 +52,13 @@
       "issue_size_cr": 702.0,
       "source": "https://www.chittorgarh.com/ipo/fusion-cx-ipo/2455/",
       "details_url": "https://www.chittorgarh.com/ipo/fusion-cx-ipo/2455/",
-      "status": "Open"
+      "status": "Open",
+      "subscription": {
+        "qib": 0.0,
+        "nii": 0.24,
+        "retail": 0.98,
+        "total": 0.24
+      }
     },
     {
       "id": "hd-fire-protect-ipo-2628",
@@ -69,12 +75,12 @@
       "details_url": "https://www.chittorgarh.com/ipo/hd-fire-protect-ipo/2628/",
       "status": "Open",
       "subscription": {
-        "qib": 1.04,
-        "nii": 11.43,
-        "retail": 3.84,
-        "employee": 2.96,
-        "total": 4.66
-      }
+        "qib": 1.42,
+        "nii": 32.77,
+        "retail": 8.54,
+        "total": 11.67
+      },
+      "issue_price": 271.0
     },
     {
       "id": "vishal-nirmiti-ipo-2665",

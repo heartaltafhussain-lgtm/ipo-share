@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T19:41:14+05:30",
+  "updated_at": "2026-10-15T00:33:29+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -1141,6 +1141,33 @@
       "issue_size_cr": 2534.0,
       "source": "https://www.chittorgarh.com/ipo/bonfiglioli-transmissions-ipo/2861/",
       "details_url": "https://www.chittorgarh.com/ipo/bonfiglioli-transmissions-ipo/2861/",
+      "status": "Open"
+    },
+    {
+      "id": "paras-healthcare-ipo-2256",
+      "company": "Paras Healthcare Ltd.",
+      "symbol": "",
+      "segment": "Mainboard",
+      "gmp": null,
+      "applications": null,
+      "first_seen": "2026-10-15",
+      "close_date": "2026-10-23",
+      "issue_size_cr": 1450.0,
+      "source": "https://www.chittorgarh.com/ipo/paras-healthcare-ipo/2256/",
+      "details_url": "https://www.chittorgarh.com/ipo/paras-healthcare-ipo/2256/",
+      "status": "Open"
+    },
+    {
+      "id": "jio-platforms-ipo-3152",
+      "company": "Jio Platforms Ltd.",
+      "symbol": "",
+      "segment": "Mainboard",
+      "gmp": null,
+      "applications": null,
+      "first_seen": "2026-10-15",
+      "close_date": "2026-10-23",
+      "source": "https://www.chittorgarh.com/ipo/jio-platforms-ipo/3152/",
+      "details_url": "https://www.chittorgarh.com/ipo/jio-platforms-ipo/3152/",
       "status": "Open"
     }
   ]

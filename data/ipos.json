@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T13:40:25+05:30",
+  "updated_at": "2026-10-14T19:41:14+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -55,9 +55,9 @@
       "status": "Open",
       "subscription": {
         "qib": 0.0,
-        "nii": 0.24,
-        "retail": 0.98,
-        "total": 0.24
+        "nii": 0.48,
+        "retail": 1.65,
+        "total": 0.43
       }
     },
     {
@@ -75,10 +75,10 @@
       "details_url": "https://www.chittorgarh.com/ipo/hd-fire-protect-ipo/2628/",
       "status": "Open",
       "subscription": {
-        "qib": 1.42,
-        "nii": 32.77,
-        "retail": 8.54,
-        "total": 11.67
+        "qib": 1.49,
+        "nii": 48.77,
+        "retail": 11.43,
+        "total": 16.56
       },
       "issue_price": 271.0
     },

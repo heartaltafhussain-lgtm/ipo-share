@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T13:21:09+05:30",
+  "updated_at": "2026-10-15T19:18:25+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -39,11 +39,11 @@
       "price_band": "₹327 to ₹344",
       "issue_size_cr": 475.0,
       "subscription": {
-        "qib": 0.0,
-        "nii": 0.1,
-        "retail": 0.23,
-        "employee": 0.06,
-        "total": 0.13
+        "qib": 0.37,
+        "nii": 0.2,
+        "retail": 0.41,
+        "employee": 0.08,
+        "total": 0.35
       }
     },
     {
@@ -61,10 +61,10 @@
       "details_url": "https://www.chittorgarh.com/ipo/fusion-cx-ipo/2455/",
       "status": "Open",
       "subscription": {
-        "qib": 0.0,
-        "nii": 1.06,
-        "retail": 3.06,
-        "total": 0.85
+        "qib": 0.05,
+        "nii": 1.53,
+        "retail": 3.92,
+        "total": 1.16
       }
     },
     {
@@ -82,11 +82,11 @@
       "details_url": "https://www.chittorgarh.com/ipo/hd-fire-protect-ipo/2628/",
       "status": "Open",
       "subscription": {
-        "qib": 17.76,
-        "nii": 133.38,
-        "retail": 21.62,
-        "employee": 16.26,
-        "total": 44.36
+        "qib": 256.65,
+        "nii": 203.21,
+        "retail": 30.55,
+        "employee": 23.61,
+        "total": 131.73
       },
       "issue_price": 271.0
     },
@@ -1121,11 +1121,11 @@
       "status": "Open",
       "price_band": "₹143 to ₹151",
       "subscription": {
-        "qib": 0.08,
-        "nii": 0.04,
-        "retail": 0.14,
-        "employee": 0.17,
-        "total": 0.08
+        "qib": 0.3,
+        "nii": 0.09,
+        "retail": 0.23,
+        "employee": 0.26,
+        "total": 0.23
       }
     },
     {
@@ -1143,11 +1143,11 @@
       "price_band": "₹665 to ₹700",
       "issue_size_cr": 852.0,
       "subscription": {
-        "qib": 0.0,
-        "nii": 2.92,
-        "retail": 1.87,
-        "employee": 4.2,
-        "total": 1.56
+        "qib": 3.92,
+        "nii": 5.96,
+        "retail": 3.21,
+        "employee": 6.52,
+        "total": 4.01
       }
     },
     {
@@ -1165,11 +1165,11 @@
       "details_url": "https://www.chittorgarh.com/ipo/bonfiglioli-transmissions-ipo/2861/",
       "status": "Open",
       "subscription": {
-        "qib": 0.0,
-        "nii": 0.37,
-        "retail": 0.33,
-        "employee": 0.76,
-        "total": 0.25
+        "qib": 0.08,
+        "nii": 0.78,
+        "retail": 0.58,
+        "employee": 1.38,
+        "total": 0.48
       }
     },
     {

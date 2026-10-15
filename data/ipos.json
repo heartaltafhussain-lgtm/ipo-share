@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T07:49:28+05:30",
+  "updated_at": "2026-10-15T13:21:09+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -37,7 +37,14 @@
       "details_url": "https://www.chittorgarh.com/ipo/sahajanand-medical-technologies-ipo/2550/",
       "status": "Open",
       "price_band": "₹327 to ₹344",
-      "issue_size_cr": 475.0
+      "issue_size_cr": 475.0,
+      "subscription": {
+        "qib": 0.0,
+        "nii": 0.1,
+        "retail": 0.23,
+        "employee": 0.06,
+        "total": 0.13
+      }
     },
     {
       "id": "fusion-cx-ipo-2455",
@@ -55,9 +62,9 @@
       "status": "Open",
       "subscription": {
         "qib": 0.0,
-        "nii": 0.48,
-        "retail": 1.65,
-        "total": 0.43
+        "nii": 1.06,
+        "retail": 3.06,
+        "total": 0.85
       }
     },
     {
@@ -75,10 +82,11 @@
       "details_url": "https://www.chittorgarh.com/ipo/hd-fire-protect-ipo/2628/",
       "status": "Open",
       "subscription": {
-        "qib": 1.49,
-        "nii": 48.77,
-        "retail": 11.43,
-        "total": 16.56
+        "qib": 17.76,
+        "nii": 133.38,
+        "retail": 21.62,
+        "employee": 16.26,
+        "total": 44.36
       },
       "issue_price": 271.0
     },
@@ -1111,7 +1119,14 @@
       "source": "https://www.chittorgarh.com/ipo/zetwerk-ipo/3091/",
       "details_url": "https://www.chittorgarh.com/ipo/zetwerk-ipo/3091/",
       "status": "Open",
-      "price_band": "₹143 to ₹151"
+      "price_band": "₹143 to ₹151",
+      "subscription": {
+        "qib": 0.08,
+        "nii": 0.04,
+        "retail": 0.14,
+        "employee": 0.17,
+        "total": 0.08
+      }
     },
     {
       "id": "tonbo-imaging-india-ipo-3215",
@@ -1126,7 +1141,14 @@
       "details_url": "https://www.chittorgarh.com/ipo/tonbo-imaging-india-ipo/3215/",
       "status": "Open",
       "price_band": "₹665 to ₹700",
-      "issue_size_cr": 852.0
+      "issue_size_cr": 852.0,
+      "subscription": {
+        "qib": 0.0,
+        "nii": 2.92,
+        "retail": 1.87,
+        "employee": 4.2,
+        "total": 1.56
+      }
     },
     {
       "id": "bonfiglioli-transmissions-ipo-2861",
@@ -1141,7 +1163,14 @@
       "issue_size_cr": 2534.0,
       "source": "https://www.chittorgarh.com/ipo/bonfiglioli-transmissions-ipo/2861/",
       "details_url": "https://www.chittorgarh.com/ipo/bonfiglioli-transmissions-ipo/2861/",
-      "status": "Open"
+      "status": "Open",
+      "subscription": {
+        "qib": 0.0,
+        "nii": 0.37,
+        "retail": 0.33,
+        "employee": 0.76,
+        "total": 0.25
+      }
     },
     {
       "id": "paras-healthcare-ipo-2256",
@@ -1155,7 +1184,8 @@
       "issue_size_cr": 1450.0,
       "source": "https://www.chittorgarh.com/ipo/paras-healthcare-ipo/2256/",
       "details_url": "https://www.chittorgarh.com/ipo/paras-healthcare-ipo/2256/",
-      "status": "Open"
+      "status": "Open",
+      "price_band": "₹660 to ₹693"
     },
     {
       "id": "jio-platforms-ipo-3152",
@@ -1168,7 +1198,9 @@
       "close_date": "2026-10-23",
       "source": "https://www.chittorgarh.com/ipo/jio-platforms-ipo/3152/",
       "details_url": "https://www.chittorgarh.com/ipo/jio-platforms-ipo/3152/",
-      "status": "Open"
+      "status": "Open",
+      "price_band": "₹1065 to ₹1119",
+      "issue_size_cr": 30213.0
     }
   ]
 }

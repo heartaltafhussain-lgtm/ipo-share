@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T12:49:44+05:30",
+  "updated_at": "2026-10-17T18:05:58+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -67,7 +67,8 @@
         "retail": 5.99,
         "total": 4.68
       },
-      "sale_type": "Fresh capital cum OFS"
+      "sale_type": "Fresh capital cum OFS",
+      "issue_price": 289.0
     },
     {
       "id": "hd-fire-protect-ipo-2628",
@@ -118,8 +119,8 @@
       "issue_price": 220.0,
       "listing_price": 215.0,
       "sale_type": "Fresh capital cum OFS",
-      "week1_move_pct": null,
-      "week1_flag": false
+      "week1_move_pct": -22.61,
+      "week1_flag": true
     },
     {
       "id": "nityas-gems-jewellery-ipo-2974",
@@ -147,7 +148,7 @@
       "issue_price": 75.0,
       "listing_price": 80.0,
       "sale_type": "Fresh capital only",
-      "week1_move_pct": null,
+      "week1_move_pct": -5.24,
       "week1_flag": false
     },
     {
@@ -255,8 +256,8 @@
       "issue_price": 139.0,
       "listing_price": 142.0,
       "sale_type": "Fresh capital cum OFS",
-      "week1_move_pct": null,
-      "week1_flag": false
+      "week1_move_pct": -20.8,
+      "week1_flag": true
     },
     {
       "id": "orient-cables-ipo-2532",
@@ -282,7 +283,7 @@
       "issue_price": 272.0,
       "listing_price": 450.0,
       "sale_type": "Fresh capital cum OFS",
-      "week1_move_pct": null,
+      "week1_move_pct": -15.38,
       "week1_flag": false
     },
     {
@@ -308,7 +309,7 @@
       "status": "Listed",
       "issue_price": 32.0,
       "sale_type": "Fresh capital cum OFS",
-      "week1_move_pct": null,
+      "week1_move_pct": 9.85,
       "week1_flag": false
     },
     {
@@ -335,7 +336,7 @@
       "status": "Listed",
       "issue_price": 405.0,
       "sale_type": "Fresh capital cum OFS",
-      "week1_move_pct": null,
+      "week1_move_pct": -15.43,
       "week1_flag": false
     },
     {
@@ -414,7 +415,7 @@
       "status": "Listed",
       "issue_price": 185.0,
       "sale_type": "Fresh capital cum OFS",
-      "week1_move_pct": null,
+      "week1_move_pct": 7.76,
       "week1_flag": false
     },
     {
@@ -441,7 +442,7 @@
       "issue_price": 362.0,
       "listing_price": 355.1,
       "sale_type": "Fresh capital only",
-      "week1_move_pct": null,
+      "week1_move_pct": -9.05,
       "week1_flag": false
     },
     {
@@ -624,8 +625,8 @@
       "status": "Listed",
       "issue_price": 424.0,
       "sale_type": "Fresh capital cum OFS",
-      "week1_move_pct": null,
-      "week1_flag": false
+      "week1_move_pct": 30.1,
+      "week1_flag": true
     },
     {
       "id": "manika-plastech-ipo-2483",

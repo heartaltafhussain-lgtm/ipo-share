@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T04:38:35+05:30",
+  "updated_at": "2026-10-17T07:20:29+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -44,7 +44,8 @@
         "retail": 0.83,
         "employee": 0.14,
         "total": 0.83
-      }
+      },
+      "sale_type": "OFS only"
     },
     {
       "id": "fusion-cx-ipo-2455",
@@ -65,7 +66,8 @@
         "nii": 4.73,
         "retail": 5.99,
         "total": 4.68
-      }
+      },
+      "sale_type": "Fresh capital cum OFS"
     },
     {
       "id": "hd-fire-protect-ipo-2628",
@@ -88,12 +90,13 @@
         "employee": 23.61,
         "total": 131.73
       },
-      "issue_price": 271.0
+      "issue_price": 271.0,
+      "sale_type": "OFS only"
     },
     {
       "id": "vishal-nirmiti-ipo-2665",
       "company": "Vishal Nirmiti Ltd.",
-      "symbol": "",
+      "symbol": "VNL",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -113,12 +116,15 @@
       "details_url": "https://www.chittorgarh.com/ipo/vishal-nirmiti-ipo/2665/",
       "status": "Listed",
       "issue_price": 220.0,
-      "listing_price": 215.0
+      "listing_price": 215.0,
+      "sale_type": "Fresh capital cum OFS",
+      "week1_move_pct": -22.61,
+      "week1_flag": true
     },
     {
       "id": "nityas-gems-jewellery-ipo-2974",
       "company": "Nityas Gems & Jewellery Ltd.",
-      "symbol": "",
+      "symbol": "NITYAS",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -139,12 +145,15 @@
       "details_url": "https://www.chittorgarh.com/ipo/nityas-gems-jewellery-ipo/2974/",
       "status": "Listed",
       "issue_price": 75.0,
-      "listing_price": 80.0
+      "listing_price": 80.0,
+      "sale_type": "Fresh capital only",
+      "week1_move_pct": -5.24,
+      "week1_flag": false
     },
     {
       "id": "shah-investors-home-ipo-2657",
       "company": "Shah Investor's Home Ltd.",
-      "symbol": "",
+      "symbol": "SHAHINVEST",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -162,12 +171,15 @@
       "source": "https://www.chittorgarh.com/ipo/shah-investors-home-ipo/2657/",
       "details_url": "https://www.chittorgarh.com/ipo/shah-investors-home-ipo/2657/",
       "status": "Listed",
-      "issue_price": 167.0
+      "issue_price": 167.0,
+      "sale_type": "Fresh capital only",
+      "week1_move_pct": -16.0,
+      "week1_flag": false
     },
     {
       "id": "srit-india-ipo-2858",
       "company": "SRIT India Ltd.",
-      "symbol": "",
+      "symbol": "SRIT",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -186,12 +198,15 @@
       "details_url": "https://www.chittorgarh.com/ipo/srit-india-ipo/2858/",
       "status": "Listed",
       "issue_price": 130.0,
-      "listing_price": 148.0
+      "listing_price": 148.0,
+      "sale_type": "Fresh capital only",
+      "week1_move_pct": -14.63,
+      "week1_flag": false
     },
     {
       "id": "runwal-enterprises-ipo-2298",
       "company": "Runwal Enterprises Ltd.",
-      "symbol": "",
+      "symbol": "RUNWALENTR",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -211,12 +226,15 @@
       "details_url": "https://www.chittorgarh.com/ipo/runwal-enterprises-ipo/2298/",
       "status": "Listed",
       "issue_price": 305.0,
-      "listing_price": 305.0
+      "listing_price": 305.0,
+      "sale_type": "Fresh capital only",
+      "week1_move_pct": -13.92,
+      "week1_flag": false
     },
     {
       "id": "german-green-steel-and-power-ipo-2497",
       "company": "German Green Steel & Power Ltd.",
-      "symbol": "",
+      "symbol": "GERMAN",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -235,12 +253,15 @@
       "details_url": "https://www.chittorgarh.com/ipo/german-green-steel-and-power-ipo/2497/",
       "status": "Listed",
       "issue_price": 139.0,
-      "listing_price": 142.0
+      "listing_price": 142.0,
+      "sale_type": "Fresh capital cum OFS",
+      "week1_move_pct": -20.8,
+      "week1_flag": true
     },
     {
       "id": "orient-cables-ipo-2532",
       "company": "Orient Cables (India) Ltd.",
-      "symbol": "",
+      "symbol": "ORIENTCABL",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -259,12 +280,15 @@
       "details_url": "https://www.chittorgarh.com/ipo/orient-cables-ipo/2532/",
       "status": "Listed",
       "issue_price": 272.0,
-      "listing_price": 450.0
+      "listing_price": 450.0,
+      "sale_type": "Fresh capital cum OFS",
+      "week1_move_pct": -15.38,
+      "week1_flag": false
     },
     {
       "id": "snapdeal-ipo-2543",
       "company": "Acevector Ltd. (Snapdeal IPO)",
-      "symbol": "",
+      "symbol": "ACEVECTOR",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -282,12 +306,15 @@
       "source": "https://www.chittorgarh.com/ipo/snapdeal-ipo/2543/",
       "details_url": "https://www.chittorgarh.com/ipo/snapdeal-ipo/2543/",
       "status": "Listed",
-      "issue_price": 32.0
+      "issue_price": 32.0,
+      "sale_type": "Fresh capital cum OFS",
+      "week1_move_pct": 9.85,
+      "week1_flag": false
     },
     {
       "id": "a-one-steels-ipo-2000",
       "company": "A-One Steels India Ltd.",
-      "symbol": "",
+      "symbol": "AONESTEELS",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -306,12 +333,15 @@
       "source": "https://www.chittorgarh.com/ipo/a-one-steels-ipo/2000/",
       "details_url": "https://www.chittorgarh.com/ipo/a-one-steels-ipo/2000/",
       "status": "Listed",
-      "issue_price": 405.0
+      "issue_price": 405.0,
+      "sale_type": "Fresh capital cum OFS",
+      "week1_move_pct": -15.43,
+      "week1_flag": false
     },
     {
       "id": "moneyview-ipo-2936",
       "company": "Moneyview Ltd.",
-      "symbol": "",
+      "symbol": "MONEYVIEW",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -330,12 +360,15 @@
       "details_url": "https://www.chittorgarh.com/ipo/moneyview-ipo/2936/",
       "status": "Listed",
       "issue_price": 34.0,
-      "listing_price": 55.0
+      "listing_price": 55.0,
+      "sale_type": "Fresh capital cum OFS",
+      "week1_move_pct": 9.93,
+      "week1_flag": false
     },
     {
       "id": "armee-infotech-ipo-2140",
       "company": "ArMee Infotech Ltd.",
-      "symbol": "",
+      "symbol": "ARMEE",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -353,12 +386,15 @@
       "source": "https://www.chittorgarh.com/ipo/armee-infotech-ipo/2140/",
       "details_url": "https://www.chittorgarh.com/ipo/armee-infotech-ipo/2140/",
       "status": "Listed",
-      "issue_price": 375.0
+      "issue_price": 375.0,
+      "sale_type": "Fresh capital only",
+      "week1_move_pct": -32.2,
+      "week1_flag": true
     },
     {
       "id": "swastika-infra-ipo-2287",
       "company": "Swastika Infra Ltd.",
-      "symbol": "",
+      "symbol": "SWASTIKAIN",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -376,12 +412,15 @@
       "source": "https://www.chittorgarh.com/ipo/swastika-infra-ipo/2287/",
       "details_url": "https://www.chittorgarh.com/ipo/swastika-infra-ipo/2287/",
       "status": "Listed",
-      "issue_price": 185.0
+      "issue_price": 185.0,
+      "sale_type": "Fresh capital cum OFS",
+      "week1_move_pct": 7.76,
+      "week1_flag": false
     },
     {
       "id": "elevate-campuses-ipo-2647",
       "company": "Elevate Campuses Ltd.",
-      "symbol": "",
+      "symbol": "ELEVATE",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -400,12 +439,15 @@
       "details_url": "https://www.chittorgarh.com/ipo/elevate-campuses-ipo/2647/",
       "status": "Listed",
       "issue_price": 362.0,
-      "listing_price": 355.1
+      "listing_price": 355.1,
+      "sale_type": "Fresh capital only",
+      "week1_move_pct": -9.05,
+      "week1_flag": false
     },
     {
       "id": "adroit-industries-ipo-3007",
       "company": "Adroit Industries (India) Ltd.",
-      "symbol": "",
+      "symbol": "ADROITIND",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -424,12 +466,15 @@
       "details_url": "https://www.chittorgarh.com/ipo/adroit-industries-ipo/3007/",
       "status": "Listed",
       "issue_price": 134.0,
-      "listing_price": 235.0
+      "listing_price": 235.0,
+      "sale_type": "Fresh capital cum OFS",
+      "week1_move_pct": -9.37,
+      "week1_flag": false
     },
     {
       "id": "varmora-granito-ipo-2563",
       "company": "Varmora Granito Ltd.",
-      "symbol": "",
+      "symbol": "VARMORA",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -447,12 +492,15 @@
       "source": "https://www.chittorgarh.com/ipo/varmora-granito-ipo/2563/",
       "details_url": "https://www.chittorgarh.com/ipo/varmora-granito-ipo/2563/",
       "status": "Listed",
-      "issue_price": 148.0
+      "issue_price": 148.0,
+      "sale_type": "Fresh capital cum OFS",
+      "week1_move_pct": -14.3,
+      "week1_flag": false
     },
     {
       "id": "sonaselection-india-ipo-2805",
       "company": "Sonaselection India Ltd.",
-      "symbol": "",
+      "symbol": "SONA",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -470,7 +518,10 @@
       "source": "https://www.chittorgarh.com/ipo/sonaselection-india-ipo/2805/",
       "details_url": "https://www.chittorgarh.com/ipo/sonaselection-india-ipo/2805/",
       "status": "Listed",
-      "issue_price": 99.0
+      "issue_price": 99.0,
+      "sale_type": "Fresh capital only",
+      "week1_move_pct": -6.14,
+      "week1_flag": false
     },
     {
       "id": "nse-ipo-3151",
@@ -494,12 +545,13 @@
       "source": "https://www.chittorgarh.com/ipo/nse-ipo/3151/",
       "details_url": "https://www.chittorgarh.com/ipo/nse-ipo/3151/",
       "status": "Listed",
-      "issue_price": 1785.0
+      "issue_price": 1785.0,
+      "sale_type": "OFS only"
     },
     {
       "id": "hero-motors-ipo-2225",
       "company": "Hero Motors Ltd.",
-      "symbol": "",
+      "symbol": "HEROMOTORS",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -517,12 +569,15 @@
       "source": "https://www.chittorgarh.com/ipo/hero-motors-ipo/2225/",
       "details_url": "https://www.chittorgarh.com/ipo/hero-motors-ipo/2225/",
       "status": "Listed",
-      "issue_price": 84.0
+      "issue_price": 84.0,
+      "sale_type": "Fresh capital cum OFS",
+      "week1_move_pct": 72.79,
+      "week1_flag": true
     },
     {
       "id": "jindal-supreme-ipo-2803",
       "company": "Jindal Supreme (India) Ltd.",
-      "symbol": "",
+      "symbol": "JSIPL",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -540,12 +595,15 @@
       "source": "https://www.chittorgarh.com/ipo/jindal-supreme-ipo/2803/",
       "details_url": "https://www.chittorgarh.com/ipo/jindal-supreme-ipo/2803/",
       "status": "Listed",
-      "issue_price": 93.0
+      "issue_price": 93.0,
+      "sale_type": "Fresh capital cum OFS",
+      "week1_move_pct": 27.62,
+      "week1_flag": true
     },
     {
       "id": "ss-retail-ipo-2822",
       "company": "SS Retail Ltd.",
-      "symbol": "",
+      "symbol": "SSRETAIL",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -564,12 +622,15 @@
       "source": "https://www.chittorgarh.com/ipo/ss-retail-ipo/2822/",
       "details_url": "https://www.chittorgarh.com/ipo/ss-retail-ipo/2822/",
       "status": "Listed",
-      "issue_price": 424.0
+      "issue_price": 424.0,
+      "sale_type": "Fresh capital cum OFS",
+      "week1_move_pct": 30.1,
+      "week1_flag": true
     },
     {
       "id": "manika-plastech-ipo-2483",
       "company": "Manika Plastech Ltd.",
-      "symbol": "",
+      "symbol": "MANIKA",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -587,12 +648,15 @@
       "source": "https://www.chittorgarh.com/ipo/manika-plastech-ipo/2483/",
       "details_url": "https://www.chittorgarh.com/ipo/manika-plastech-ipo/2483/",
       "status": "Listed",
-      "issue_price": 43.0
+      "issue_price": 43.0,
+      "sale_type": "Fresh capital cum OFS",
+      "week1_move_pct": -3.58,
+      "week1_flag": false
     },
     {
       "id": "veegaland-developers-ipo-2834",
       "company": "Veegaland Developers Ltd.",
-      "symbol": "",
+      "symbol": "VEEGALAND",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -602,20 +666,20 @@
       "price_band": "₹130 to ₹140",
       "issue_size_cr": 210.0,
       "subscription": {
-        "qib": 19.13,
-        "nii": 19.41,
-        "retail": 9.95,
-        "total": 14.6
+        "total": 10.54
       },
       "source": "https://www.chittorgarh.com/ipo/veegaland-developers-ipo/2834/",
       "details_url": "https://www.chittorgarh.com/ipo/veegaland-developers-ipo/2834/",
       "status": "Listed",
-      "issue_price": 140.0
+      "issue_price": 140.0,
+      "sale_type": "Fresh capital only",
+      "week1_move_pct": -9.19,
+      "week1_flag": false
     },
     {
       "id": "karamtara-engineering-ipo-2020",
       "company": "Karamtara Engineering Ltd.",
-      "symbol": "",
+      "symbol": "KARAMTARA",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -625,20 +689,20 @@
       "price_band": "₹241 to ₹254",
       "issue_size_cr": 875.0,
       "subscription": {
-        "qib": 168.19,
-        "nii": 51.17,
-        "retail": 13.98,
-        "total": 66.01
+        "total": 46.38
       },
       "source": "https://www.chittorgarh.com/ipo/karamtara-engineering-ipo/2020/",
       "details_url": "https://www.chittorgarh.com/ipo/karamtara-engineering-ipo/2020/",
       "status": "Listed",
-      "issue_price": 254.0
+      "issue_price": 254.0,
+      "sale_type": "Fresh capital cum OFS",
+      "week1_move_pct": 14.09,
+      "week1_flag": false
     },
     {
       "id": "lcc-projects-ipo-2086",
       "company": "LCC Projects Ltd.",
-      "symbol": "",
+      "symbol": "LCCPROJECT",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -648,20 +712,20 @@
       "price_band": "₹139 to ₹146",
       "issue_size_cr": 427.0,
       "subscription": {
-        "qib": 78.73,
-        "nii": 64.91,
-        "retail": 26.34,
-        "total": 49.57
+        "total": 34.76
       },
       "source": "https://www.chittorgarh.com/ipo/lcc-projects-ipo/2086/",
       "details_url": "https://www.chittorgarh.com/ipo/lcc-projects-ipo/2086/",
       "status": "Listed",
-      "issue_price": 146.0
+      "issue_price": 146.0,
+      "sale_type": "Fresh capital cum OFS",
+      "week1_move_pct": -11.46,
+      "week1_flag": false
     },
     {
       "id": "steamhouse-india-ipo-2514",
       "company": "Steamhouse India Ltd.",
-      "symbol": "",
+      "symbol": "STEAMHOUSE",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -671,20 +735,20 @@
       "price_band": "₹77 to ₹81",
       "issue_size_cr": 414.0,
       "subscription": {
-        "qib": 46.19,
-        "nii": 46.6,
-        "retail": 17.78,
-        "total": 32.07
+        "total": 22.59
       },
       "source": "https://www.chittorgarh.com/ipo/steamhouse-india-ipo/2514/",
       "details_url": "https://www.chittorgarh.com/ipo/steamhouse-india-ipo/2514/",
       "status": "Listed",
-      "issue_price": 81.0
+      "issue_price": 81.0,
+      "sale_type": "Fresh capital cum OFS",
+      "week1_move_pct": 18.54,
+      "week1_flag": false
     },
     {
       "id": "manipal-payment-and-identity-solutions-ipo-2524",
       "company": "Manipal Payment & Identity Solutions Ltd.",
-      "symbol": "",
+      "symbol": "MPIMANIPAL",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -694,20 +758,20 @@
       "price_band": "₹322 to ₹339",
       "issue_size_cr": 805.0,
       "subscription": {
-        "qib": 1.26,
-        "nii": 1.22,
-        "retail": 2.19,
-        "total": 1.42
+        "total": 1.26
       },
       "source": "https://www.chittorgarh.com/ipo/manipal-payment-and-identity-solutions-ipo/2524/",
       "details_url": "https://www.chittorgarh.com/ipo/manipal-payment-and-identity-solutions-ipo/2524/",
       "status": "Listed",
-      "issue_price": 339.0
+      "issue_price": 339.0,
+      "sale_type": "Fresh capital cum OFS",
+      "week1_move_pct": 12.91,
+      "week1_flag": false
     },
     {
       "id": "asset-reconstruction-ipo-2558",
       "company": "Asset Reconstruction Co.(India) Ltd.",
-      "symbol": "",
+      "symbol": "ARCIL",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -717,20 +781,20 @@
       "price_band": "₹132 to ₹139",
       "issue_size_cr": 733.0,
       "subscription": {
-        "qib": 52.65,
-        "nii": 15.69,
-        "retail": 3.39,
-        "total": 20.1
+        "total": 14.36
       },
       "source": "https://www.chittorgarh.com/ipo/asset-reconstruction-ipo/2558/",
       "details_url": "https://www.chittorgarh.com/ipo/asset-reconstruction-ipo/2558/",
       "status": "Listed",
-      "issue_price": 139.0
+      "issue_price": 139.0,
+      "sale_type": "OFS only",
+      "week1_move_pct": 7.74,
+      "week1_flag": false
     },
     {
       "id": "rentomojo-ipo-2971",
       "company": "Rentomojo Ltd.",
-      "symbol": "",
+      "symbol": "RENTOMOJO",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -740,21 +804,20 @@
       "price_band": "₹384 to ₹404",
       "issue_size_cr": 1256.0,
       "subscription": {
-        "qib": 177.29,
-        "nii": 67.93,
-        "retail": 15.62,
-        "employee": 21.03,
-        "total": 72.89
+        "total": 51.13
       },
       "source": "https://www.chittorgarh.com/ipo/rentomojo-ipo/2971/",
       "details_url": "https://www.chittorgarh.com/ipo/rentomojo-ipo/2971/",
       "status": "Listed",
-      "issue_price": 404.0
+      "issue_price": 404.0,
+      "sale_type": "Fresh capital cum OFS",
+      "week1_move_pct": 11.88,
+      "week1_flag": false
     },
     {
       "id": "glass-wall-systems-ipo-2594",
       "company": "Glass Wall Systems (India) Ltd.",
-      "symbol": "",
+      "symbol": "GLASSWALL",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -764,20 +827,20 @@
       "price_band": "₹172 to ₹182",
       "issue_size_cr": 428.0,
       "subscription": {
-        "qib": 167.93,
-        "nii": 79.71,
-        "retail": 33.18,
-        "total": 81.65
+        "total": 56.97
       },
       "source": "https://www.chittorgarh.com/ipo/glass-wall-systems-ipo/2594/",
       "details_url": "https://www.chittorgarh.com/ipo/glass-wall-systems-ipo/2594/",
       "status": "Listed",
-      "issue_price": 182.0
+      "issue_price": 182.0,
+      "sale_type": "Fresh capital cum OFS",
+      "week1_move_pct": 59.43,
+      "week1_flag": true
     },
     {
       "id": "prasol-chemicals-ipo-2775",
       "company": "Prasol Chemicals Ltd.",
-      "symbol": "",
+      "symbol": "PRASOLCHEM",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -787,20 +850,20 @@
       "price_band": "₹643 to ₹676",
       "issue_size_cr": 500.0,
       "subscription": {
-        "qib": 7.59,
-        "nii": 1.89,
-        "retail": 1.79,
-        "total": 3.47
+        "total": 2.71
       },
       "source": "https://www.chittorgarh.com/ipo/prasol-chemicals-ipo/2775/",
       "details_url": "https://www.chittorgarh.com/ipo/prasol-chemicals-ipo/2775/",
       "status": "Listed",
-      "issue_price": 676.0
+      "issue_price": 676.0,
+      "sale_type": "Fresh capital cum OFS",
+      "week1_move_pct": 15.53,
+      "week1_flag": false
     },
     {
       "id": "kanohar-electricals-ipo-2856",
       "company": "Kanohar Electricals Ltd.",
-      "symbol": "",
+      "symbol": "KANOHAR",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -810,20 +873,20 @@
       "price_band": "₹601 to ₹632",
       "issue_size_cr": 1056.0,
       "subscription": {
-        "qib": 215.37,
-        "nii": 87.74,
-        "retail": 20.51,
-        "total": 90.59
+        "total": 63.6
       },
       "source": "https://www.chittorgarh.com/ipo/kanohar-electricals-ipo/2856/",
       "details_url": "https://www.chittorgarh.com/ipo/kanohar-electricals-ipo/2856/",
       "status": "Listed",
-      "issue_price": 632.0
+      "issue_price": 632.0,
+      "sale_type": "Fresh capital cum OFS",
+      "week1_move_pct": 26.99,
+      "week1_flag": true
     },
     {
       "id": "pranav-constructions-ipo-2127",
       "company": "Pranav Constructions Ltd.",
-      "symbol": "",
+      "symbol": "PRANAV",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -833,20 +896,20 @@
       "price_band": "₹118 to ₹124",
       "issue_size_cr": 351.0,
       "subscription": {
-        "qib": 268.54,
-        "nii": 217.73,
-        "retail": 45.31,
-        "total": 126.34
+        "total": 95.39
       },
       "source": "https://www.chittorgarh.com/ipo/pranav-constructions-ipo/2127/",
       "details_url": "https://www.chittorgarh.com/ipo/pranav-constructions-ipo/2127/",
       "status": "Listed",
-      "issue_price": 124.0
+      "issue_price": 124.0,
+      "sale_type": "Fresh capital cum OFS",
+      "week1_move_pct": -36.21,
+      "week1_flag": true
     },
     {
       "id": "rays-of-belief-ipo-2787",
       "company": "Rays of Belief Ltd.",
-      "symbol": "",
+      "symbol": "MOMSBELIEF",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -861,12 +924,15 @@
       "source": "https://www.chittorgarh.com/ipo/rays-of-belief-ipo/2787/",
       "details_url": "https://www.chittorgarh.com/ipo/rays-of-belief-ipo/2787/",
       "status": "Listed",
-      "issue_price": 239.0
+      "issue_price": 239.0,
+      "sale_type": "Fresh capital only",
+      "week1_move_pct": 3.52,
+      "week1_flag": false
     },
     {
       "id": "deepa-jewellers-ipo-2827",
       "company": "Deepa Jewellers Ltd.",
-      "symbol": "",
+      "symbol": "DEEPA",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -881,12 +947,15 @@
       "source": "https://www.chittorgarh.com/ipo/deepa-jewellers-ipo/2827/",
       "details_url": "https://www.chittorgarh.com/ipo/deepa-jewellers-ipo/2827/",
       "status": "Listed",
-      "issue_price": 177.0
+      "issue_price": 177.0,
+      "sale_type": "Fresh capital cum OFS",
+      "week1_move_pct": -23.47,
+      "week1_flag": true
     },
     {
       "id": "purple-style-labs-ipo-2622",
       "company": "Purple Style Labs Ltd.",
-      "symbol": "",
+      "symbol": "PERNIASPOP",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -902,12 +971,15 @@
       "source": "https://www.chittorgarh.com/ipo/purple-style-labs-ipo/2622/",
       "details_url": "https://www.chittorgarh.com/ipo/purple-style-labs-ipo/2622/",
       "status": "Listed",
-      "issue_price": 575.0
+      "issue_price": 575.0,
+      "sale_type": "Fresh capital only",
+      "week1_move_pct": 7.57,
+      "week1_flag": false
     },
     {
       "id": "esds-software-ipo-1198",
       "company": "ESDS Software Solution Ltd.",
-      "symbol": "",
+      "symbol": "ESDS",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -923,12 +995,15 @@
       "source": "https://www.chittorgarh.com/ipo/esds-software-ipo/1198/",
       "details_url": "https://www.chittorgarh.com/ipo/esds-software-ipo/1198/",
       "status": "Listed",
-      "issue_price": 429.0
+      "issue_price": 429.0,
+      "sale_type": "Fresh capital only",
+      "week1_move_pct": 109.01,
+      "week1_flag": true
     },
     {
       "id": "priority-jewels-ipo-2435",
       "company": "Priority Jewels Ltd.",
-      "symbol": "",
+      "symbol": "PRIORITY",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -944,12 +1019,15 @@
       "source": "https://www.chittorgarh.com/ipo/priority-jewels-ipo/2435/",
       "details_url": "https://www.chittorgarh.com/ipo/priority-jewels-ipo/2435/",
       "status": "Listed",
-      "issue_price": 200.0
+      "issue_price": 200.0,
+      "sale_type": "Fresh capital only",
+      "week1_move_pct": 5.0,
+      "week1_flag": false
     },
     {
       "id": "lumino-industries-ipo-2013",
       "company": "Lumino Industries Ltd.",
-      "symbol": "",
+      "symbol": "LUMINO",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -964,12 +1042,15 @@
       "source": "https://www.chittorgarh.com/ipo/lumino-industries-ipo/2013/",
       "details_url": "https://www.chittorgarh.com/ipo/lumino-industries-ipo/2013/",
       "status": "Listed",
-      "issue_price": 82.0
+      "issue_price": 82.0,
+      "sale_type": "Fresh capital cum OFS",
+      "week1_move_pct": 4.38,
+      "week1_flag": false
     },
     {
       "id": "annu-projects-ipo-2500",
       "company": "Annu Projects Ltd.",
-      "symbol": "",
+      "symbol": "ANNU",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -984,12 +1065,15 @@
       "source": "https://www.chittorgarh.com/ipo/annu-projects-ipo/2500/",
       "details_url": "https://www.chittorgarh.com/ipo/annu-projects-ipo/2500/",
       "status": "Listed",
-      "issue_price": 99.0
+      "issue_price": 99.0,
+      "sale_type": "Fresh capital only",
+      "week1_move_pct": -14.47,
+      "week1_flag": false
     },
     {
       "id": "skyways-air-ipo-2510",
       "company": "Skyways Air Services Ltd.",
-      "symbol": "",
+      "symbol": "SKYWAYS",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -1004,12 +1088,15 @@
       "source": "https://www.chittorgarh.com/ipo/skyways-air-ipo/2510/",
       "details_url": "https://www.chittorgarh.com/ipo/skyways-air-ipo/2510/",
       "status": "Listed",
-      "issue_price": 138.0
+      "issue_price": 138.0,
+      "sale_type": "Fresh capital cum OFS",
+      "week1_move_pct": -8.14,
+      "week1_flag": false
     },
     {
       "id": "hy-tech-engineers-ipo-2591",
       "company": "Hy-Tech Engineers Ltd.",
-      "symbol": "",
+      "symbol": "HTEL",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -1024,12 +1111,15 @@
       "source": "https://www.chittorgarh.com/ipo/hy-tech-engineers-ipo/2591/",
       "details_url": "https://www.chittorgarh.com/ipo/hy-tech-engineers-ipo/2591/",
       "status": "Listed",
-      "issue_price": 53.0
+      "issue_price": 53.0,
+      "sale_type": "Fresh capital cum OFS",
+      "week1_move_pct": 5.0,
+      "week1_flag": false
     },
     {
       "id": "symbiotec-pharmalab-ipo-2815",
       "company": "Symbiotec Pharmalab Ltd.",
-      "symbol": "",
+      "symbol": "SYMBIOTEC",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -1044,7 +1134,10 @@
       "source": "https://www.chittorgarh.com/ipo/symbiotec-pharmalab-ipo/2815/",
       "details_url": "https://www.chittorgarh.com/ipo/symbiotec-pharmalab-ipo/2815/",
       "status": "Listed",
-      "issue_price": 988.0
+      "issue_price": 988.0,
+      "sale_type": "Fresh capital cum OFS",
+      "week1_move_pct": 11.2,
+      "week1_flag": false
     },
     {
       "id": "augmont-enterprises-ipo-2673",
@@ -1126,7 +1219,8 @@
         "retail": 0.37,
         "employee": 0.48,
         "total": 0.31
-      }
+      },
+      "sale_type": "Fresh capital cum OFS"
     },
     {
       "id": "tonbo-imaging-india-ipo-3215",
@@ -1149,7 +1243,8 @@
         "employee": 13.15,
         "total": 7.78
       },
-      "issue_price": 700.0
+      "issue_price": 700.0,
+      "sale_type": "OFS only"
     },
     {
       "id": "bonfiglioli-transmissions-ipo-2861",
@@ -1171,7 +1266,8 @@
         "retail": 1.16,
         "employee": 2.1,
         "total": 0.99
-      }
+      },
+      "sale_type": "OFS only"
     },
     {
       "id": "paras-healthcare-ipo-2256",
@@ -1186,7 +1282,8 @@
       "source": "https://www.chittorgarh.com/ipo/paras-healthcare-ipo/2256/",
       "details_url": "https://www.chittorgarh.com/ipo/paras-healthcare-ipo/2256/",
       "status": "Open",
-      "price_band": "₹660 to ₹693"
+      "price_band": "₹660 to ₹693",
+      "sale_type": "Fresh capital cum OFS"
     },
     {
       "id": "jio-platforms-ipo-3152",
@@ -1201,7 +1298,8 @@
       "details_url": "https://www.chittorgarh.com/ipo/jio-platforms-ipo/3152/",
       "status": "Open",
       "price_band": "₹1065 to ₹1119",
-      "issue_size_cr": 30213.0
+      "issue_size_cr": 30213.0,
+      "sale_type": "Fresh capital only"
     }
   ]
 }

@@ -107,6 +107,12 @@ def parse_detail(body, rows):
         if name in key_map and re.fullmatch(r"\d+\.\d+", val) and key_map[name] not in sub:
             sub[key_map[name]] = float(val)
     d["subscription"] = sub or None
+
+    sym = label_value(body, ["Symbol"])
+    if sym and "/" in sym:
+        sym = sym.split("/")[-1]
+    d["symbol"] = sym.strip() if sym else None
+    d["sale_type"] = label_value(body, ["Sale Type"])
     return d
 
 
@@ -181,6 +187,53 @@ async def fetch_listing_prices(page):
     return out
 
 
+import urllib.request as _ur, time as _time, json as _json
+
+
+def weekly_move(symbol, listing_date, ref_price=None):
+    """Listing ke pehle 5 trading days mein sabse bada move (%). Yahoo Finance se."""
+    if not symbol or not listing_date:
+        return None
+    ld = dt.date.fromisoformat(listing_date)
+    p1 = int(dt.datetime.combine(ld - dt.timedelta(days=3), dt.time(0)).timestamp())
+    p2 = int(dt.datetime.combine(ld + dt.timedelta(days=12), dt.time(0)).timestamp())
+    data = None
+    for host in ("query2", "query1"):
+        url = f"https://{host}.finance.yahoo.com/v8/finance/chart/{symbol}.NS?period1={p1}&period2={p2}&interval=1d"
+        for attempt in range(3):
+            try:
+                req = _ur.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+                with _ur.urlopen(req, timeout=20) as r:
+                    data = _json.loads(r.read().decode())
+                break
+            except Exception:
+                _time.sleep(3 + attempt * 3)
+        if data:
+            break
+    if not data:
+        return None
+    try:
+        res = data["chart"]["result"][0]
+        ts = res["timestamp"]
+        q = res["indicators"]["quote"][0]
+    except (KeyError, IndexError, TypeError):
+        return None
+    bars = []
+    for t, o, c in zip(ts, q.get("open", []), q.get("close", [])):
+        d = (dt.datetime.utcfromtimestamp(t) + dt.timedelta(hours=5, minutes=30)).date()
+        if ld <= d <= ld + dt.timedelta(days=7) and c is not None:
+            bars.append((d, o, c))
+    bars = bars[:5]
+    # Yahoo par naye IPO ka data kabhi adhoora hota hai: listing ke paas ka pehla bar hona zaroori hai
+    if not bars or (bars[0][0] - ld).days > 2:
+        return None
+    ref = ref_price or bars[0][1]
+    if not ref:
+        return None
+    moves = [(c / ref - 1) * 100 for _, _, c in bars]
+    return round(max(moves, key=abs), 2)
+
+
 def status(ipo, today):
     ld = ipo.get("listing_date")
     if ld and today >= dt.date.fromisoformat(ld):
@@ -222,7 +275,8 @@ async def main():
                 iid = ipo_id(it["url"])
                 existing = by_id.get(iid)
                 # Listed IPO ka data dobara fetch nahi karte
-                if existing and existing.get("status") == "Listed" and existing.get("issue_price") is not None:
+                if existing and existing.get("status") == "Listed" and existing.get("issue_price") is not None \
+                        and existing.get("symbol") and existing.get("sale_type"):
                     continue
                 try:
                     d = await get_detail(page, it["url"])
@@ -237,6 +291,8 @@ async def main():
                     "gmp": None, "applications": None, "first_seen": today.isoformat(),
                 }
                 rec.update({k: v for k, v in d.items() if k != "subscription" and v is not None})
+                if d.get("symbol") and not rec.get("symbol"):
+                    rec["symbol"] = d["symbol"]
                 if d.get("subscription"):
                     rec["subscription"] = d["subscription"]
                 rec["source"] = it["url"]
@@ -262,6 +318,16 @@ async def main():
                 i["issue_price"] = hit["issue_price"]
 
         await browser.close()
+
+    # Listing ke 1 hafte ka move (Yahoo Finance)
+    for i in db["ipos"]:
+        if status(i, today) != "Listed" or not i.get("symbol") or not i.get("listing_date"):
+            continue
+        mv = weekly_move(i["symbol"], i["listing_date"], i.get("listing_price"))
+        i["week1_move_pct"] = mv
+        i["week1_flag"] = bool(mv is not None and abs(mv) >= 20)
+        print("  week1:", i["company"], mv)
+        _time.sleep(1)
 
     # Retention: 60 din baad hatao
     kept = []

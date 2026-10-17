@@ -39,6 +39,13 @@
   a { color: #8ab4ff; text-decoration: none; }
   .note { font-size: 12px; color: #6f7aa3; margin-top: 12px; line-height: 1.6; }
   .empty { padding: 30px; text-align: center; color: #6f7aa3; }
+  .topbar { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-top: 14px; }
+  .btn { background: #141b35; color: #e6e9f2; border: 1px solid #2b3670; border-radius: 8px; padding: 9px 14px; font-size: 14px; cursor: pointer; text-decoration: none; display: inline-block; }
+  .btn:hover { border-color: #3b5bdb; }
+  .btn.on { background: #b7791f; border-color: #b7791f; color: #111; font-weight: 700; }
+  .btn.primary { background: #3b5bdb; border-color: #3b5bdb; }
+  .reason { white-space: normal; min-width: 260px; font-size: 13px; line-height: 1.4; }
+  .move { font-weight: 700; }
 </style>
 </head>
 <body>
@@ -55,7 +62,13 @@
     <div class="stat"><b id="sUpdated" style="font-size:13px">—</b><span>Last updated (IST)</span></div>
   </div>
 
-  <div class="controls">
+  <div class="topbar">
+    <button class="btn" id="resultBtn">🏆 Result: 1 hafte mein ±20% move</button>
+    <button class="btn primary" onclick="refreshPage()">🔄 Refresh</button>
+    <a class="btn" href="https://github.com/heartaltafhussain-lgtm/ipo-share/actions/workflows/update.yml" target="_blank">⚙ Data update (GitHub)</a>
+  </div>
+
+  <div class="controls" style="margin-top:14px">
     <div class="tabs" id="tabs">
       <button data-f="all" class="active">All</button>
       <button data-f="Open">Open</button>
@@ -87,7 +100,7 @@
           <th class="num">Retail x</th>
           <th class="num">Employee x</th>
           <th class="num">Total x</th>
-          <th>Details</th>
+          <th>Reason / Details</th>
         </tr>
       </thead>
       <tbody id="rows"></tbody>
@@ -96,7 +109,7 @@
   </div>
 
   <p class="note">
-    <b>Rang (colour):</b> Listing price, issue price se zyada ho to <span class="up">green</span>, kam ho to <span class="down">red</span>.<br>
+    <b>Rang (colour):</b> Naam aur listing price, issue price se zyada ho to <span class="up">green</span> (positive open), kam ho to <span class="down">red</span> (negative open). Naam par click karne se TradingView chart khulta hai.<br>
     <b>Note:</b> QIB subscription me FII + DII (aur mutual funds, insurance, banks) dono shamil hote hain. Public data me FII aur DII alag-alag nahi aate.
     Subscription "x" = kitni baar oversubscribed (1.00x = pura issue book). Yeh sirf information ke liye hai, investment advice nahi.
   </p>
@@ -136,6 +149,31 @@ function priceClass(i){
   return "muted";
 }
 
+const REASONS = {
+  "fresh capital only": "Sirf Fresh Issue: paisa company ke growth / expansion / debt ke liye jayega.",
+  "fresh capital cum ofs": "Fresh + OFS: kuch paisa company ke growth ke liye, kuch promoter / shareholders ko jayega.",
+  "offer for sale only": "Sirf OFS (Offer for Sale): paisa promoter / existing shareholders ke paas jayega, company ko nahi."
+};
+function reasonText(i){
+  const key = (i.sale_type || "").trim().toLowerCase();
+  return REASONS[key] || (i.sale_type ? "Sale type: " + i.sale_type : "—");
+}
+function tvLink(i){
+  return i.symbol ? `https://in.tradingview.com/chart/?symbol=NSE%3A${encodeURIComponent(i.symbol)}` : null;
+}
+function refreshPage(){
+  const u = new URL(window.location.href);
+  u.searchParams.set("r", Date.now());
+  window.location.href = u.toString();
+}
+
+let resultOnly = false;
+document.getElementById("resultBtn").onclick = () => {
+  resultOnly = !resultOnly;
+  document.getElementById("resultBtn").classList.toggle("on", resultOnly);
+  render();
+};
+
 let filter = "all";
 const all = (DATA.ipos || [])
   .filter(i => i.segment === "Mainboard")
@@ -148,6 +186,7 @@ function render(){
 
   let list = all.filter(i =>
     (filter === "all" || i._status === filter) &&
+    (!resultOnly || i.week1_flag === true) &&
     (!q || (i.company + " " + (i.symbol||"")).toLowerCase().includes(q))
   );
 
@@ -164,8 +203,16 @@ function render(){
 
   document.getElementById("rows").innerHTML = list.map(i => {
     const sb = s(i);
+    const link = tvLink(i);
+    const nameHtml = `<b>${i.company}</b>`;
+    const nameCell = link
+      ? `<a href="${link}" target="_blank" title="TradingView chart kholo" class="${priceClass(i)}">${nameHtml}</a>`
+      : `<span class="${priceClass(i)}">${nameHtml}</span>`;
+    const moveHtml = (i.week1_move_pct !== null && i.week1_move_pct !== undefined)
+      ? `<div class="move ${i.week1_move_pct >= 0 ? "up" : "down"}">1 hafte mein: ${i.week1_move_pct >= 0 ? "+" : ""}${Number(i.week1_move_pct).toFixed(2)}%</div>`
+      : "";
     return `<tr>
-      <td><b>${i.company}</b>${i.symbol ? `<div class="muted">${i.symbol}</div>` : ""}</td>
+      <td>${nameCell}${i.symbol ? `<div class="muted">NSE: ${i.symbol}</div>` : ""}</td>
       <td><span class="badge ${i._status}">${i._status}</span></td>
       <td>${i.price_band || "—"}</td>
       <td class="num">${rupee(i.issue_price)}</td>
@@ -175,7 +222,7 @@ function render(){
       <td class="num ${cls(sb.retail)}">${x(sb.retail)}</td>
       <td class="num ${cls(sb.employee)}">${x(sb.employee)}</td>
       <td class="num ${cls(sb.total)}"><b>${x(sb.total)}</b></td>
-      <td>${i.details_url ? `<a href="${i.details_url}" target="_blank">Details ↗</a>` : "—"}</td>
+      <td class="reason">${reasonText(i)}${moveHtml}${i.details_url ? `<div><a href="${i.details_url}" target="_blank">Chittorgarh ↗</a></div>` : ""}</td>
     </tr>`;
   }).join("");
 
@@ -196,5 +243,5 @@ document.querySelectorAll("#tabs button").forEach(b => b.onclick = () => {
 document.getElementById("sUpdated").textContent = DATA.updated_at ? new Date(DATA.updated_at).toLocaleString("en-IN") : "—";
 render();
 </script>
-<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a48715c2becb7a1e',t:'MTc5MTY1MDYxNg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a4bb90decc927a1c',t:'MTc5MjIwMDkxOA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>

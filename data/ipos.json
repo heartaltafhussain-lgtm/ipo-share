@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T21:32:35+05:30",
+  "updated_at": "2026-10-20T03:22:45+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -35,7 +35,7 @@
       "close_date": "2026-10-19",
       "source": "https://www.chittorgarh.com/ipo/sahajanand-medical-technologies-ipo/2550/",
       "details_url": "https://www.chittorgarh.com/ipo/sahajanand-medical-technologies-ipo/2550/",
-      "status": "Open",
+      "status": "Closed",
       "price_band": "₹327 to ₹344",
       "issue_size_cr": 475.0,
       "subscription": {
@@ -73,7 +73,7 @@
     {
       "id": "hd-fire-protect-ipo-2628",
       "company": "HD Fire Protect Ltd.",
-      "symbol": "",
+      "symbol": "HDFIRE",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -92,7 +92,8 @@
         "total": 131.73
       },
       "issue_price": 271.0,
-      "sale_type": "OFS only"
+      "sale_type": "OFS only",
+      "listing_date": "2026-10-21"
     },
     {
       "id": "vishal-nirmiti-ipo-2665",
@@ -119,8 +120,8 @@
       "issue_price": 220.0,
       "listing_price": 215.0,
       "sale_type": "Fresh capital cum OFS",
-      "week1_move_pct": -22.61,
-      "week1_flag": true
+      "week1_move_pct": null,
+      "week1_flag": false
     },
     {
       "id": "nityas-gems-jewellery-ipo-2974",
@@ -148,7 +149,7 @@
       "issue_price": 75.0,
       "listing_price": 80.0,
       "sale_type": "Fresh capital only",
-      "week1_move_pct": -5.24,
+      "week1_move_pct": null,
       "week1_flag": false
     },
     {
@@ -256,8 +257,8 @@
       "issue_price": 139.0,
       "listing_price": 142.0,
       "sale_type": "Fresh capital cum OFS",
-      "week1_move_pct": -20.8,
-      "week1_flag": true
+      "week1_move_pct": null,
+      "week1_flag": false
     },
     {
       "id": "orient-cables-ipo-2532",
@@ -283,7 +284,7 @@
       "issue_price": 272.0,
       "listing_price": 450.0,
       "sale_type": "Fresh capital cum OFS",
-      "week1_move_pct": -15.38,
+      "week1_move_pct": null,
       "week1_flag": false
     },
     {
@@ -309,7 +310,7 @@
       "status": "Listed",
       "issue_price": 32.0,
       "sale_type": "Fresh capital cum OFS",
-      "week1_move_pct": 9.85,
+      "week1_move_pct": null,
       "week1_flag": false
     },
     {
@@ -336,7 +337,7 @@
       "status": "Listed",
       "issue_price": 405.0,
       "sale_type": "Fresh capital cum OFS",
-      "week1_move_pct": -15.43,
+      "week1_move_pct": null,
       "week1_flag": false
     },
     {
@@ -415,7 +416,7 @@
       "status": "Listed",
       "issue_price": 185.0,
       "sale_type": "Fresh capital cum OFS",
-      "week1_move_pct": 7.76,
+      "week1_move_pct": null,
       "week1_flag": false
     },
     {
@@ -442,7 +443,7 @@
       "issue_price": 362.0,
       "listing_price": 355.1,
       "sale_type": "Fresh capital only",
-      "week1_move_pct": -9.05,
+      "week1_move_pct": null,
       "week1_flag": false
     },
     {
@@ -625,8 +626,8 @@
       "status": "Listed",
       "issue_price": 424.0,
       "sale_type": "Fresh capital cum OFS",
-      "week1_move_pct": 30.1,
-      "week1_flag": true
+      "week1_move_pct": null,
+      "week1_flag": false
     },
     {
       "id": "manika-plastech-ipo-2483",
@@ -1212,7 +1213,7 @@
       "issue_size_cr": 5012.0,
       "source": "https://www.chittorgarh.com/ipo/zetwerk-ipo/3091/",
       "details_url": "https://www.chittorgarh.com/ipo/zetwerk-ipo/3091/",
-      "status": "Open",
+      "status": "Closed",
       "price_band": "₹143 to ₹151",
       "subscription": {
         "qib": 4.71,
@@ -1234,7 +1235,7 @@
       "close_date": "2026-10-19",
       "source": "https://www.chittorgarh.com/ipo/tonbo-imaging-india-ipo/3215/",
       "details_url": "https://www.chittorgarh.com/ipo/tonbo-imaging-india-ipo/3215/",
-      "status": "Open",
+      "status": "Closed",
       "price_band": "₹665 to ₹700",
       "issue_size_cr": 852.0,
       "subscription": {
@@ -1260,7 +1261,7 @@
       "issue_size_cr": 2534.0,
       "source": "https://www.chittorgarh.com/ipo/bonfiglioli-transmissions-ipo/2861/",
       "details_url": "https://www.chittorgarh.com/ipo/bonfiglioli-transmissions-ipo/2861/",
-      "status": "Open",
+      "status": "Closed",
       "subscription": {
         "qib": 120.78,
         "nii": 40.39,

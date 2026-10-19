@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T13:47:08+05:30",
+  "updated_at": "2026-10-19T21:32:35+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -39,11 +39,11 @@
       "price_band": "₹327 to ₹344",
       "issue_size_cr": 475.0,
       "subscription": {
-        "qib": 1.59,
-        "nii": 4.52,
-        "retail": 1.76,
-        "employee": 0.25,
-        "total": 2.25
+        "qib": 34.7,
+        "nii": 14.64,
+        "retail": 3.04,
+        "employee": 0.37,
+        "total": 14.21
       },
       "sale_type": "OFS only"
     },
@@ -1215,11 +1215,11 @@
       "status": "Open",
       "price_band": "₹143 to ₹151",
       "subscription": {
-        "qib": 1.31,
-        "nii": 0.74,
-        "retail": 0.53,
-        "employee": 1.2,
-        "total": 1.01
+        "qib": 4.71,
+        "nii": 1.45,
+        "retail": 0.77,
+        "employee": 1.59,
+        "total": 3.1
       },
       "sale_type": "Fresh capital cum OFS"
     },
@@ -1238,11 +1238,11 @@
       "price_band": "₹665 to ₹700",
       "issue_size_cr": 852.0,
       "subscription": {
-        "qib": 35.59,
-        "nii": 109.24,
-        "retail": 21.39,
-        "employee": 39.65,
-        "total": 44.26
+        "qib": 293.56,
+        "nii": 156.36,
+        "retail": 31.11,
+        "employee": 54.31,
+        "total": 132.81
       },
       "issue_price": 700.0,
       "sale_type": "OFS only"
@@ -1262,11 +1262,11 @@
       "details_url": "https://www.chittorgarh.com/ipo/bonfiglioli-transmissions-ipo/2861/",
       "status": "Open",
       "subscription": {
-        "qib": 10.45,
-        "nii": 22.31,
-        "retail": 3.76,
-        "employee": 5.29,
-        "total": 9.64
+        "qib": 120.78,
+        "nii": 40.39,
+        "retail": 5.9,
+        "employee": 7.42,
+        "total": 46.05
       },
       "sale_type": "OFS only"
     },

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T13:32:48+05:30",
+  "updated_at": "2026-10-20T19:29:43+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -1271,7 +1271,8 @@
         "employee": 7.42,
         "total": 46.05
       },
-      "sale_type": "OFS only"
+      "sale_type": "OFS only",
+      "issue_price": 586.0
     },
     {
       "id": "paras-healthcare-ipo-2256",

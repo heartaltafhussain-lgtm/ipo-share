@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T08:05:28+05:30",
+  "updated_at": "2026-10-20T13:32:48+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -45,7 +45,8 @@
         "employee": 0.37,
         "total": 14.21
       },
-      "sale_type": "OFS only"
+      "sale_type": "OFS only",
+      "issue_price": 344.0
     },
     {
       "id": "fusion-cx-ipo-2455",
@@ -1222,7 +1223,8 @@
         "employee": 1.59,
         "total": 3.1
       },
-      "sale_type": "Fresh capital cum OFS"
+      "sale_type": "Fresh capital cum OFS",
+      "issue_price": 151.0
     },
     {
       "id": "tonbo-imaging-india-ipo-3215",
@@ -1317,6 +1319,36 @@
       "sale_type": "Fresh capital only",
       "source": "https://www.chittorgarh.com/ipo/bls-polymers-ipo/2559/",
       "details_url": "https://www.chittorgarh.com/ipo/bls-polymers-ipo/2559/",
+      "status": "Open"
+    },
+    {
+      "id": "sfc-environmental-technologies-ipo-2070",
+      "company": "SFC Environmental Technologies Ltd.",
+      "symbol": "",
+      "segment": "Mainboard",
+      "gmp": null,
+      "applications": null,
+      "first_seen": "2026-10-20",
+      "close_date": "2026-10-29",
+      "issue_size_cr": 150.0,
+      "sale_type": "Fresh capital cum OFS",
+      "source": "https://www.chittorgarh.com/ipo/sfc-environmental-technologies-ipo/2070/",
+      "details_url": "https://www.chittorgarh.com/ipo/sfc-environmental-technologies-ipo/2070/",
+      "status": "Open"
+    },
+    {
+      "id": "eaaa-india-alternatives-ipo-2061",
+      "company": "EAAA India Alternatives Ltd.",
+      "symbol": "",
+      "segment": "Mainboard",
+      "gmp": null,
+      "applications": null,
+      "first_seen": "2026-10-20",
+      "close_date": "2026-10-28",
+      "issue_size_cr": 1200.0,
+      "sale_type": "OFS only",
+      "source": "https://www.chittorgarh.com/ipo/eaaa-india-alternatives-ipo/2061/",
+      "details_url": "https://www.chittorgarh.com/ipo/eaaa-india-alternatives-ipo/2061/",
       "status": "Open"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T08:00:08+05:30",
+  "updated_at": "2026-10-21T13:38:01+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -95,8 +95,9 @@
       "issue_price": 271.0,
       "sale_type": "OFS only",
       "listing_date": "2026-10-21",
-      "week1_move_pct": null,
-      "week1_flag": false
+      "week1_move_pct": -8.55,
+      "week1_flag": false,
+      "listing_price": 335.0
     },
     {
       "id": "vishal-nirmiti-ipo-2665",
@@ -1290,7 +1291,13 @@
       "details_url": "https://www.chittorgarh.com/ipo/paras-healthcare-ipo/2256/",
       "status": "Open",
       "price_band": "₹660 to ₹693",
-      "sale_type": "Fresh capital cum OFS"
+      "sale_type": "Fresh capital cum OFS",
+      "subscription": {
+        "qib": 0.0,
+        "nii": 0.05,
+        "retail": 0.53,
+        "total": 0.11
+      }
     },
     {
       "id": "jio-platforms-ipo-3152",
@@ -1306,7 +1313,14 @@
       "status": "Open",
       "price_band": "₹1065 to ₹1119",
       "issue_size_cr": 30213.0,
-      "sale_type": "Fresh capital only"
+      "sale_type": "Fresh capital only",
+      "subscription": {
+        "qib": 4.86,
+        "nii": 0.74,
+        "retail": 0.53,
+        "employee": 1.05,
+        "total": 1.7
+      }
     },
     {
       "id": "bls-polymers-ipo-2559",
@@ -1333,11 +1347,12 @@
       "applications": null,
       "first_seen": "2026-10-20",
       "close_date": "2026-10-29",
-      "issue_size_cr": 150.0,
+      "issue_size_cr": 668.0,
       "sale_type": "Fresh capital cum OFS",
       "source": "https://www.chittorgarh.com/ipo/sfc-environmental-technologies-ipo/2070/",
       "details_url": "https://www.chittorgarh.com/ipo/sfc-environmental-technologies-ipo/2070/",
-      "status": "Open"
+      "status": "Open",
+      "price_band": "₹313 to ₹330"
     },
     {
       "id": "eaaa-india-alternatives-ipo-2061",
@@ -1352,7 +1367,8 @@
       "sale_type": "OFS only",
       "source": "https://www.chittorgarh.com/ipo/eaaa-india-alternatives-ipo/2061/",
       "details_url": "https://www.chittorgarh.com/ipo/eaaa-india-alternatives-ipo/2061/",
-      "status": "Open"
+      "status": "Open",
+      "price_band": "₹1585 to ₹1665"
     }
   ]
 }

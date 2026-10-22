@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T19:51:06+05:30",
+  "updated_at": "2026-10-23T00:43:26+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -27,7 +27,7 @@
     {
       "id": "sahajanand-medical-technologies-ipo-2550",
       "company": "Sahajanand Medical Technologies Ltd.",
-      "symbol": "",
+      "symbol": "SMT",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -35,7 +35,7 @@
       "close_date": "2026-10-19",
       "source": "https://www.chittorgarh.com/ipo/sahajanand-medical-technologies-ipo/2550/",
       "details_url": "https://www.chittorgarh.com/ipo/sahajanand-medical-technologies-ipo/2550/",
-      "status": "Closed",
+      "status": "Listed",
       "price_band": "₹327 to ₹344",
       "issue_size_cr": 475.0,
       "subscription": {
@@ -46,7 +46,10 @@
         "employee": 0.37
       },
       "sale_type": "OFS only",
-      "issue_price": 344.0
+      "issue_price": 344.0,
+      "listing_date": "2026-10-23",
+      "week1_move_pct": null,
+      "week1_flag": false
     },
     {
       "id": "fusion-cx-ipo-2455",
@@ -545,11 +548,7 @@
       "price_band": "₹1700 to ₹1785",
       "issue_size_cr": 22563.0,
       "subscription": {
-        "qib": 12.68,
-        "nii": 6.55,
-        "retail": 1.39,
-        "employee": 2.4,
-        "total": 5.71
+        "total": 4.26
       },
       "source": "https://www.chittorgarh.com/ipo/nse-ipo/3151/",
       "details_url": "https://www.chittorgarh.com/ipo/nse-ipo/3151/",
@@ -1235,7 +1234,7 @@
     {
       "id": "tonbo-imaging-india-ipo-3215",
       "company": "Tonbo Imaging India Ltd.",
-      "symbol": "",
+      "symbol": "TONBO",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -1243,7 +1242,7 @@
       "close_date": "2026-10-19",
       "source": "https://www.chittorgarh.com/ipo/tonbo-imaging-india-ipo/3215/",
       "details_url": "https://www.chittorgarh.com/ipo/tonbo-imaging-india-ipo/3215/",
-      "status": "Closed",
+      "status": "Listed",
       "price_band": "₹665 to ₹700",
       "issue_size_cr": 852.0,
       "subscription": {
@@ -1254,12 +1253,15 @@
         "employee": 54.31
       },
       "issue_price": 700.0,
-      "sale_type": "OFS only"
+      "sale_type": "OFS only",
+      "listing_date": "2026-10-23",
+      "week1_move_pct": null,
+      "week1_flag": false
     },
     {
       "id": "bonfiglioli-transmissions-ipo-2861",
       "company": "Bonfiglioli Transmissions Ltd.",
-      "symbol": "",
+      "symbol": "BONFIG",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -1269,7 +1271,7 @@
       "issue_size_cr": 2534.0,
       "source": "https://www.chittorgarh.com/ipo/bonfiglioli-transmissions-ipo/2861/",
       "details_url": "https://www.chittorgarh.com/ipo/bonfiglioli-transmissions-ipo/2861/",
-      "status": "Closed",
+      "status": "Listed",
       "subscription": {
         "total": 759.26,
         "qib": 120.78,
@@ -1278,7 +1280,10 @@
         "employee": 7.42
       },
       "sale_type": "OFS only",
-      "issue_price": 586.0
+      "issue_price": 586.0,
+      "listing_date": "2026-10-23",
+      "week1_move_pct": null,
+      "week1_flag": false
     },
     {
       "id": "paras-healthcare-ipo-2256",

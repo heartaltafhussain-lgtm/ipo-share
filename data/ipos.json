@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T00:43:26+05:30",
+  "updated_at": "2026-10-23T05:28:08+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -1210,7 +1210,7 @@
     {
       "id": "zetwerk-ipo-3091",
       "company": "Zetwerk Manufacturing Business Ltd.",
-      "symbol": "",
+      "symbol": "ZETWERK",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -1219,7 +1219,7 @@
       "issue_size_cr": 5012.0,
       "source": "https://www.chittorgarh.com/ipo/zetwerk-ipo/3091/",
       "details_url": "https://www.chittorgarh.com/ipo/zetwerk-ipo/3091/",
-      "status": "Closed",
+      "status": "Listed",
       "price_band": "₹143 to ₹151",
       "subscription": {
         "qib": 4.71,
@@ -1229,7 +1229,10 @@
         "total": 3.1
       },
       "sale_type": "Fresh capital cum OFS",
-      "issue_price": 151.0
+      "issue_price": 151.0,
+      "listing_date": "2026-10-23",
+      "week1_move_pct": null,
+      "week1_flag": false
     },
     {
       "id": "tonbo-imaging-india-ipo-3215",

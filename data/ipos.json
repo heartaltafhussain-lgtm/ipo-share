@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T13:44:08+05:30",
+  "updated_at": "2026-10-23T19:27:36+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -48,7 +48,7 @@
       "sale_type": "OFS only",
       "issue_price": 344.0,
       "listing_date": "2026-10-23",
-      "week1_move_pct": 0.03,
+      "week1_move_pct": 1.75,
       "week1_flag": false
     },
     {
@@ -74,7 +74,7 @@
       "sale_type": "Fresh capital cum OFS",
       "issue_price": 289.0,
       "listing_date": "2026-10-22",
-      "week1_move_pct": -8.92,
+      "week1_move_pct": -8.07,
       "week1_flag": false,
       "listing_price": 305.0
     },
@@ -102,7 +102,7 @@
       "issue_price": 271.0,
       "sale_type": "OFS only",
       "listing_date": "2026-10-21",
-      "week1_move_pct": -20.46,
+      "week1_move_pct": -20.42,
       "week1_flag": true,
       "listing_price": 335.0
     },
@@ -1232,7 +1232,7 @@
       "sale_type": "Fresh capital cum OFS",
       "issue_price": 151.0,
       "listing_date": "2026-10-23",
-      "week1_move_pct": -15.03,
+      "week1_move_pct": -13.19,
       "week1_flag": false
     },
     {
@@ -1259,7 +1259,7 @@
       "issue_price": 700.0,
       "sale_type": "OFS only",
       "listing_date": "2026-10-23",
-      "week1_move_pct": -7.8,
+      "week1_move_pct": -2.26,
       "week1_flag": false
     },
     {
@@ -1286,7 +1286,7 @@
       "sale_type": "OFS only",
       "issue_price": 586.0,
       "listing_date": "2026-10-23",
-      "week1_move_pct": -0.08,
+      "week1_move_pct": -1.96,
       "week1_flag": false
     },
     {
@@ -1306,9 +1306,9 @@
       "sale_type": "Fresh capital cum OFS",
       "subscription": {
         "total": 652.5,
-        "qib": 0.4,
-        "nii": 0.45,
-        "retail": 1.79
+        "qib": 3.25,
+        "nii": 0.69,
+        "retail": 2.1
       }
     },
     {
@@ -1327,11 +1327,11 @@
       "issue_size_cr": 30213.0,
       "sale_type": "Fresh capital only",
       "subscription": {
-        "qib": 20.82,
-        "nii": 11.72,
-        "retail": 2.29,
-        "employee": 2.63,
-        "total": 9.1
+        "qib": 64.07,
+        "nii": 13.95,
+        "retail": 2.74,
+        "employee": 2.9,
+        "total": 20.58
       },
       "issue_price": 1119.0
     },
@@ -1410,7 +1410,7 @@
       "first_seen": "2026-10-23",
       "close_date": "2026-10-30",
       "price_band": "₹153 to ₹162",
-      "issue_size_cr": 330.0,
+      "issue_size_cr": 275.0,
       "sale_type": "Fresh capital cum OFS",
       "source": "https://www.chittorgarh.com/ipo/mksons-fine-jewels-ipo/3100/",
       "details_url": "https://www.chittorgarh.com/ipo/mksons-fine-jewels-ipo/3100/",

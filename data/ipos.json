@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T00:19:14+05:30",
+  "updated_at": "2026-10-24T05:10:59+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -102,8 +102,8 @@
       "issue_price": 271.0,
       "sale_type": "OFS only",
       "listing_date": "2026-10-21",
-      "week1_move_pct": -17.4,
-      "week1_flag": false,
+      "week1_move_pct": -20.42,
+      "week1_flag": true,
       "listing_price": 335.0
     },
     {
@@ -728,8 +728,8 @@
       "status": "Listed",
       "issue_price": 146.0,
       "sale_type": "Fresh capital cum OFS",
-      "week1_move_pct": -11.46,
-      "week1_flag": false
+      "week1_move_pct": -25.22,
+      "week1_flag": true
     },
     {
       "id": "steamhouse-india-ipo-2514",

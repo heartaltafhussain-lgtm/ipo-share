@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T13:15:11+05:30",
+  "updated_at": "2026-10-24T18:31:22+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -74,7 +74,7 @@
       "sale_type": "Fresh capital cum OFS",
       "issue_price": 289.0,
       "listing_date": "2026-10-22",
-      "week1_move_pct": -5.03,
+      "week1_move_pct": -8.07,
       "week1_flag": false,
       "listing_price": 305.0
     },
@@ -1309,7 +1309,8 @@
         "qib": 3.25,
         "nii": 0.69,
         "retail": 2.1
-      }
+      },
+      "issue_price": 693.0
     },
     {
       "id": "jio-platforms-ipo-3152",

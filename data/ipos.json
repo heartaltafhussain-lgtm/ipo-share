@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T18:58:21+05:30",
+  "updated_at": "2026-10-25T23:29:40+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -48,7 +48,7 @@
       "sale_type": "OFS only",
       "issue_price": 344.0,
       "listing_date": "2026-10-23",
-      "week1_move_pct": 1.75,
+      "week1_move_pct": 1.13,
       "week1_flag": false
     },
     {
@@ -74,7 +74,7 @@
       "sale_type": "Fresh capital cum OFS",
       "issue_price": 289.0,
       "listing_date": "2026-10-22",
-      "week1_move_pct": -8.07,
+      "week1_move_pct": -8.52,
       "week1_flag": false,
       "listing_price": 305.0
     },
@@ -1232,7 +1232,7 @@
       "sale_type": "Fresh capital cum OFS",
       "issue_price": 151.0,
       "listing_date": "2026-10-23",
-      "week1_move_pct": -13.19,
+      "week1_move_pct": -11.65,
       "week1_flag": false
     },
     {
@@ -1259,7 +1259,7 @@
       "issue_price": 700.0,
       "sale_type": "OFS only",
       "listing_date": "2026-10-23",
-      "week1_move_pct": -2.26,
+      "week1_move_pct": -0.41,
       "week1_flag": false
     },
     {
@@ -1286,7 +1286,7 @@
       "sale_type": "OFS only",
       "issue_price": 586.0,
       "listing_date": "2026-10-23",
-      "week1_move_pct": -1.96,
+      "week1_move_pct": -3.4,
       "week1_flag": false
     },
     {

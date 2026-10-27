@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T14:00:56+05:30",
+  "updated_at": "2026-10-27T20:32:35+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -48,7 +48,7 @@
       "sale_type": "OFS only",
       "issue_price": 344.0,
       "listing_date": "2026-10-23",
-      "week1_move_pct": 25.99,
+      "week1_move_pct": 32.75,
       "week1_flag": true,
       "listing_price": 371.15
     },
@@ -1268,7 +1268,7 @@
       "sale_type": "OFS only",
       "issue_price": 586.0,
       "listing_date": "2026-10-23",
-      "week1_move_pct": 7.12,
+      "week1_move_pct": 6.72,
       "week1_flag": false
     },
     {
@@ -1335,9 +1335,9 @@
       "status": "Open",
       "subscription": {
         "total": 76.5,
-        "qib": 11.62,
-        "nii": 6.57,
-        "retail": 4.28
+        "qib": 12.03,
+        "nii": 13.01,
+        "retail": 6.79
       }
     },
     {
@@ -1358,8 +1358,8 @@
       "subscription": {
         "total": 200.26,
         "qib": 0.0,
-        "nii": 0.04,
-        "retail": 0.12
+        "nii": 0.09,
+        "retail": 0.16
       }
     },
     {
@@ -1380,8 +1380,8 @@
       "subscription": {
         "total": 360.0,
         "qib": 0.48,
-        "nii": 0.38,
-        "retail": 0.09
+        "nii": 0.72,
+        "retail": 0.11
       }
     },
     {
@@ -1415,7 +1415,10 @@
       "sale_type": "Fresh capital cum OFS",
       "source": "https://www.chittorgarh.com/ipo/mksons-fine-jewels-ipo/3100/",
       "details_url": "https://www.chittorgarh.com/ipo/mksons-fine-jewels-ipo/3100/",
-      "status": "Open"
+      "status": "Open",
+      "subscription": {
+        "total": 82.62
+      }
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T20:32:35+05:30",
+  "updated_at": "2026-10-28T03:08:40+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -48,8 +48,8 @@
       "sale_type": "OFS only",
       "issue_price": 344.0,
       "listing_date": "2026-10-23",
-      "week1_move_pct": 32.75,
-      "week1_flag": true,
+      "week1_move_pct": 10.63,
+      "week1_flag": false,
       "listing_price": 371.15
     },
     {
@@ -1170,26 +1170,6 @@
       "issue_price": 788.0
     },
     {
-      "id": "tempsens-instruments-india-ipo-2668",
-      "company": "Tempsens Instruments (India) Ltd.",
-      "symbol": "",
-      "segment": "Mainboard",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-08-24",
-      "listing_date": "2026-08-28",
-      "price_band": "₹285 to ₹300",
-      "issue_size_cr": 650.0,
-      "subscription": {
-        "total": 128.3
-      },
-      "source": "https://www.chittorgarh.com/ipo/tempsens-instruments-india-ipo/2668/",
-      "details_url": "https://www.chittorgarh.com/ipo/tempsens-instruments-india-ipo/2668/",
-      "status": "Listed",
-      "issue_price": 300.0
-    },
-    {
       "id": "zetwerk-ipo-3091",
       "company": "Zetwerk Manufacturing Business Ltd.",
       "symbol": "ZETWERK",
@@ -1268,13 +1248,13 @@
       "sale_type": "OFS only",
       "issue_price": 586.0,
       "listing_date": "2026-10-23",
-      "week1_move_pct": 6.72,
+      "week1_move_pct": 4.85,
       "week1_flag": false
     },
     {
       "id": "paras-healthcare-ipo-2256",
       "company": "Paras Healthcare Ltd.",
-      "symbol": "",
+      "symbol": "PARASHLTH",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -1283,7 +1263,7 @@
       "issue_size_cr": 1450.0,
       "source": "https://www.chittorgarh.com/ipo/paras-healthcare-ipo/2256/",
       "details_url": "https://www.chittorgarh.com/ipo/paras-healthcare-ipo/2256/",
-      "status": "Closed",
+      "status": "Listed",
       "price_band": "₹660 to ₹693",
       "sale_type": "Fresh capital cum OFS",
       "subscription": {
@@ -1292,12 +1272,15 @@
         "nii": 0.69,
         "retail": 2.1
       },
-      "issue_price": 693.0
+      "issue_price": 693.0,
+      "listing_date": "2026-10-28",
+      "week1_move_pct": null,
+      "week1_flag": false
     },
     {
       "id": "jio-platforms-ipo-3152",
       "company": "Jio Platforms Ltd.",
-      "symbol": "",
+      "symbol": "JPL",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -1305,7 +1288,7 @@
       "close_date": "2026-10-23",
       "source": "https://www.chittorgarh.com/ipo/jio-platforms-ipo/3152/",
       "details_url": "https://www.chittorgarh.com/ipo/jio-platforms-ipo/3152/",
-      "status": "Closed",
+      "status": "Listed",
       "price_band": "₹1065 to ₹1119",
       "issue_size_cr": 30188.0,
       "sale_type": "Fresh capital only",
@@ -1316,7 +1299,10 @@
         "employee": 2.91,
         "total": 21.36
       },
-      "issue_price": 1119.0
+      "issue_price": 1119.0,
+      "listing_date": "2026-10-28",
+      "week1_move_pct": null,
+      "week1_flag": false
     },
     {
       "id": "bls-polymers-ipo-2559",

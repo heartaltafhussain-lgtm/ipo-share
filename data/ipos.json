@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T08:31:44+05:30",
+  "updated_at": "2026-10-28T14:51:52+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -75,7 +75,7 @@
       "sale_type": "Fresh capital cum OFS",
       "issue_price": 289.0,
       "listing_date": "2026-10-22",
-      "week1_move_pct": -8.07,
+      "week1_move_pct": -10.16,
       "week1_flag": false,
       "listing_price": 305.0
     },
@@ -1220,9 +1220,9 @@
       "issue_price": 700.0,
       "sale_type": "OFS only",
       "listing_date": "2026-10-23",
-      "week1_move_pct": -7.22,
+      "week1_move_pct": -12.72,
       "week1_flag": false,
-      "listing_price": 1222.0
+      "listing_price": 1299.0
     },
     {
       "id": "bonfiglioli-transmissions-ipo-2861",
@@ -1274,8 +1274,9 @@
       },
       "issue_price": 693.0,
       "listing_date": "2026-10-28",
-      "week1_move_pct": null,
-      "week1_flag": false
+      "week1_move_pct": 2.78,
+      "week1_flag": false,
+      "listing_price": 720.0
     },
     {
       "id": "jio-platforms-ipo-3152",
@@ -1301,8 +1302,9 @@
       },
       "issue_price": 1119.0,
       "listing_date": "2026-10-28",
-      "week1_move_pct": null,
-      "week1_flag": false
+      "week1_move_pct": 4.05,
+      "week1_flag": false,
+      "listing_price": 1358.0
     },
     {
       "id": "bls-polymers-ipo-2559",
@@ -1321,9 +1323,9 @@
       "status": "Open",
       "subscription": {
         "total": 76.5,
-        "qib": 12.03,
-        "nii": 13.01,
-        "retail": 6.79
+        "qib": 12.11,
+        "nii": 53.79,
+        "retail": 23.92
       },
       "issue_price": 150.0
     },
@@ -1345,8 +1347,8 @@
       "subscription": {
         "total": 200.26,
         "qib": 0.0,
-        "nii": 0.09,
-        "retail": 0.16
+        "nii": 0.24,
+        "retail": 0.3
       }
     },
     {
@@ -1366,14 +1368,14 @@
       "price_band": "₹1585 to ₹1665",
       "subscription": {
         "total": 360.0,
-        "qib": 0.48,
-        "nii": 0.72,
-        "retail": 0.11
+        "qib": 4.66,
+        "nii": 3.12,
+        "retail": 0.26
       }
     },
     {
       "id": "bombay-coated-and-special-steels-ipo-2671",
-      "company": "Bombay Coated & Special Steels Ltd. (Bombay Coated and Special Steels IPO)",
+      "company": "Bombay Coated & Special Steels Ltd.",
       "symbol": "",
       "segment": "Mainboard",
       "gmp": null,
@@ -1404,7 +1406,10 @@
       "details_url": "https://www.chittorgarh.com/ipo/mksons-fine-jewels-ipo/3100/",
       "status": "Open",
       "subscription": {
-        "total": 82.62
+        "total": 82.62,
+        "qib": 0.78,
+        "nii": 0.92,
+        "retail": 0.18
       }
     }
   ]

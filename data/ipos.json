@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T23:27:47+05:30",
+  "updated_at": "2026-10-30T03:45:32+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -1248,7 +1248,7 @@
       "sale_type": "OFS only",
       "issue_price": 586.0,
       "listing_date": "2026-10-23",
-      "week1_move_pct": 8.99,
+      "week1_move_pct": 6.72,
       "week1_flag": false
     },
     {
@@ -1302,7 +1302,7 @@
       },
       "issue_price": 1119.0,
       "listing_date": "2026-10-28",
-      "week1_move_pct": 4.68,
+      "week1_move_pct": 4.38,
       "week1_flag": false,
       "listing_price": 1358.0
     },
@@ -1320,7 +1320,7 @@
       "sale_type": "Fresh capital only",
       "source": "https://www.chittorgarh.com/ipo/bls-polymers-ipo/2559/",
       "details_url": "https://www.chittorgarh.com/ipo/bls-polymers-ipo/2559/",
-      "status": "Open",
+      "status": "Closed",
       "subscription": {
         "total": 76.5,
         "qib": 200.25,
@@ -1342,7 +1342,7 @@
       "sale_type": "Fresh capital cum OFS",
       "source": "https://www.chittorgarh.com/ipo/sfc-environmental-technologies-ipo/2070/",
       "details_url": "https://www.chittorgarh.com/ipo/sfc-environmental-technologies-ipo/2070/",
-      "status": "Open",
+      "status": "Closed",
       "price_band": "₹313 to ₹330",
       "subscription": {
         "total": 200.26,

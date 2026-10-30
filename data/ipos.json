@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T03:45:32+05:30",
+  "updated_at": "2026-10-30T08:59:03+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -1248,7 +1248,7 @@
       "sale_type": "OFS only",
       "issue_price": 586.0,
       "listing_date": "2026-10-23",
-      "week1_move_pct": 6.72,
+      "week1_move_pct": 8.99,
       "week1_flag": false
     },
     {
@@ -1302,7 +1302,7 @@
       },
       "issue_price": 1119.0,
       "listing_date": "2026-10-28",
-      "week1_move_pct": 4.38,
+      "week1_move_pct": 4.68,
       "week1_flag": false,
       "listing_price": 1358.0
     },
@@ -1395,7 +1395,8 @@
         "qib": 6.89,
         "nii": 0.76,
         "retail": 1.31
-      }
+      },
+      "issue_price": 82.0
     },
     {
       "id": "mksons-fine-jewels-ipo-3100",

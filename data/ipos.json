@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T17:22:14+05:30",
+  "updated_at": "2026-10-30T22:57:54+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -1355,7 +1355,7 @@
     {
       "id": "eaaa-india-alternatives-ipo-2061",
       "company": "EAAA India Alternatives Ltd.",
-      "symbol": "",
+      "symbol": "EDELALTS",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -1373,7 +1373,8 @@
         "nii": 4.81,
         "retail": 1.08
       },
-      "issue_price": 1665.0
+      "issue_price": 1665.0,
+      "listing_date": "2026-11-02"
     },
     {
       "id": "bombay-coated-and-special-steels-ipo-2671",

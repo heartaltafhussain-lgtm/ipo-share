@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T08:43:46+05:30",
+  "updated_at": "2026-10-31T16:56:19+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -48,8 +48,8 @@
       "sale_type": "OFS only",
       "issue_price": 344.0,
       "listing_date": "2026-10-23",
-      "week1_move_pct": null,
-      "week1_flag": false,
+      "week1_move_pct": 32.75,
+      "week1_flag": true,
       "listing_price": 371.15
     },
     {
@@ -75,7 +75,7 @@
       "sale_type": "Fresh capital cum OFS",
       "issue_price": 289.0,
       "listing_date": "2026-10-22",
-      "week1_move_pct": null,
+      "week1_move_pct": -10.67,
       "week1_flag": false,
       "listing_price": 305.0
     },
@@ -132,8 +132,8 @@
       "issue_price": 220.0,
       "listing_price": 215.0,
       "sale_type": "Fresh capital cum OFS",
-      "week1_move_pct": null,
-      "week1_flag": false
+      "week1_move_pct": -22.61,
+      "week1_flag": true
     },
     {
       "id": "nityas-gems-jewellery-ipo-2974",
@@ -161,7 +161,7 @@
       "issue_price": 75.0,
       "listing_price": 80.0,
       "sale_type": "Fresh capital only",
-      "week1_move_pct": null,
+      "week1_move_pct": -5.24,
       "week1_flag": false
     },
     {
@@ -269,8 +269,8 @@
       "issue_price": 139.0,
       "listing_price": 142.0,
       "sale_type": "Fresh capital cum OFS",
-      "week1_move_pct": null,
-      "week1_flag": false
+      "week1_move_pct": -20.8,
+      "week1_flag": true
     },
     {
       "id": "orient-cables-ipo-2532",
@@ -296,7 +296,7 @@
       "issue_price": 272.0,
       "listing_price": 450.0,
       "sale_type": "Fresh capital cum OFS",
-      "week1_move_pct": null,
+      "week1_move_pct": -15.38,
       "week1_flag": false
     },
     {
@@ -322,7 +322,7 @@
       "status": "Listed",
       "issue_price": 32.0,
       "sale_type": "Fresh capital cum OFS",
-      "week1_move_pct": null,
+      "week1_move_pct": 9.85,
       "week1_flag": false
     },
     {
@@ -349,7 +349,7 @@
       "status": "Listed",
       "issue_price": 405.0,
       "sale_type": "Fresh capital cum OFS",
-      "week1_move_pct": null,
+      "week1_move_pct": -15.43,
       "week1_flag": false
     },
     {
@@ -428,7 +428,7 @@
       "status": "Listed",
       "issue_price": 185.0,
       "sale_type": "Fresh capital cum OFS",
-      "week1_move_pct": null,
+      "week1_move_pct": 7.76,
       "week1_flag": false
     },
     {
@@ -455,7 +455,7 @@
       "issue_price": 362.0,
       "listing_price": 355.1,
       "sale_type": "Fresh capital only",
-      "week1_move_pct": null,
+      "week1_move_pct": -9.05,
       "week1_flag": false
     },
     {
@@ -634,8 +634,8 @@
       "status": "Listed",
       "issue_price": 424.0,
       "sale_type": "Fresh capital cum OFS",
-      "week1_move_pct": null,
-      "week1_flag": false
+      "week1_move_pct": 30.1,
+      "week1_flag": true
     },
     {
       "id": "manika-plastech-ipo-2483",
@@ -1173,7 +1173,7 @@
       "sale_type": "Fresh capital cum OFS",
       "issue_price": 151.0,
       "listing_date": "2026-10-23",
-      "week1_move_pct": null,
+      "week1_move_pct": -13.19,
       "week1_flag": false
     },
     {
@@ -1200,7 +1200,7 @@
       "issue_price": 700.0,
       "sale_type": "OFS only",
       "listing_date": "2026-10-23",
-      "week1_move_pct": null,
+      "week1_move_pct": -7.07,
       "week1_flag": false,
       "listing_price": 1220.0
     },
@@ -1228,7 +1228,7 @@
       "sale_type": "OFS only",
       "issue_price": 586.0,
       "listing_date": "2026-10-23",
-      "week1_move_pct": null,
+      "week1_move_pct": 8.99,
       "week1_flag": false
     },
     {
@@ -1400,7 +1400,8 @@
         "qib": 1.84,
         "nii": 14.12,
         "retail": 3.08
-      }
+      },
+      "issue_price": 162.0
     }
   ]
 }

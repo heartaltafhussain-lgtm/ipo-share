@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T10:02:23+05:30",
+  "updated_at": "2026-11-03T18:44:53+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -548,7 +548,7 @@
       "close_date": "2026-09-21",
       "listing_date": "2026-09-24",
       "price_band": "₹1700 to ₹1785",
-      "issue_size_cr": 22563.0,
+      "issue_size_cr": 22562.71,
       "subscription": {
         "total": 4.26
       },
@@ -1194,9 +1194,9 @@
       },
       "issue_price": 150.0,
       "listing_date": "2026-11-03",
-      "week1_move_pct": 2.83,
+      "week1_move_pct": 8.39,
       "week1_flag": false,
-      "listing_price": 244.1
+      "listing_price": 248.0
     },
     {
       "id": "sfc-environmental-technologies-ipo-2070",
@@ -1221,9 +1221,9 @@
       },
       "issue_price": 330.0,
       "listing_date": "2026-11-03",
-      "week1_move_pct": 7.39,
+      "week1_move_pct": 19.99,
       "week1_flag": false,
-      "listing_price": 354.05
+      "listing_price": 355.1
     },
     {
       "id": "eaaa-india-alternatives-ipo-2061",
@@ -1248,7 +1248,7 @@
       },
       "issue_price": 1665.0,
       "listing_date": "2026-11-02",
-      "week1_move_pct": -2.49,
+      "week1_move_pct": -0.89,
       "week1_flag": false
     },
     {
@@ -1261,7 +1261,7 @@
       "first_seen": "2026-10-22",
       "open_date": "2026-10-29",
       "close_date": "2026-11-02",
-      "issue_size_cr": 183.0,
+      "issue_size_cr": 183.06,
       "sale_type": "Fresh capital only",
       "source": "https://www.chittorgarh.com/ipo/bombay-coated-and-special-steels-ipo/2671/",
       "details_url": "https://www.chittorgarh.com/ipo/bombay-coated-and-special-steels-ipo/2671/",
@@ -1285,7 +1285,7 @@
       "first_seen": "2026-10-23",
       "close_date": "2026-10-30",
       "price_band": "₹153 to ₹162",
-      "issue_size_cr": 275.0,
+      "issue_size_cr": 275.4,
       "sale_type": "Fresh capital cum OFS",
       "source": "https://www.chittorgarh.com/ipo/mksons-fine-jewels-ipo/3100/",
       "details_url": "https://www.chittorgarh.com/ipo/mksons-fine-jewels-ipo/3100/",

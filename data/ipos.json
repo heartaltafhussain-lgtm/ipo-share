@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T02:35:14+05:30",
+  "updated_at": "2026-11-03T10:02:23+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -1087,7 +1087,7 @@
       "listing_date": "2026-10-23",
       "week1_move_pct": null,
       "week1_flag": false,
-      "listing_price": 1314.0
+      "listing_price": 1259.0
     },
     {
       "id": "bonfiglioli-transmissions-ipo-2861",
@@ -1194,8 +1194,9 @@
       },
       "issue_price": 150.0,
       "listing_date": "2026-11-03",
-      "week1_move_pct": null,
-      "week1_flag": false
+      "week1_move_pct": 2.83,
+      "week1_flag": false,
+      "listing_price": 244.1
     },
     {
       "id": "sfc-environmental-technologies-ipo-2070",
@@ -1220,8 +1221,9 @@
       },
       "issue_price": 330.0,
       "listing_date": "2026-11-03",
-      "week1_move_pct": null,
-      "week1_flag": false
+      "week1_move_pct": 7.39,
+      "week1_flag": false,
+      "listing_price": 354.05
     },
     {
       "id": "eaaa-india-alternatives-ipo-2061",
@@ -1246,7 +1248,7 @@
       },
       "issue_price": 1665.0,
       "listing_date": "2026-11-02",
-      "week1_move_pct": 3.12,
+      "week1_move_pct": -2.49,
       "week1_flag": false
     },
     {

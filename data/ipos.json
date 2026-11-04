@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T15:39:22+05:30",
+  "updated_at": "2026-11-05T00:39:28+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -1206,7 +1206,7 @@
     {
       "id": "bombay-coated-and-special-steels-ipo-2671",
       "company": "Bombay Coated & Special Steels Ltd.",
-      "symbol": "",
+      "symbol": "BCSSL",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -1217,7 +1217,7 @@
       "sale_type": "Fresh capital only",
       "source": "https://www.chittorgarh.com/ipo/bombay-coated-and-special-steels-ipo/2671/",
       "details_url": "https://www.chittorgarh.com/ipo/bombay-coated-and-special-steels-ipo/2671/",
-      "status": "Closed",
+      "status": "Listed",
       "price_band": "₹78 to ₹82",
       "subscription": {
         "total": 54.1,
@@ -1225,7 +1225,10 @@
         "nii": 166.44,
         "retail": 35.46
       },
-      "issue_price": 82.0
+      "issue_price": 82.0,
+      "listing_date": "2026-11-05",
+      "week1_move_pct": null,
+      "week1_flag": false
     },
     {
       "id": "mksons-fine-jewels-ipo-3100",

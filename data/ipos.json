@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T22:41:10+05:30",
+  "updated_at": "2026-11-08T02:44:28+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -914,52 +914,6 @@
       "issue_price": 124.0,
       "sale_type": "Fresh capital cum OFS",
       "week1_move_pct": -36.21,
-      "week1_flag": true
-    },
-    {
-      "id": "rays-of-belief-ipo-2787",
-      "company": "Rays of Belief Ltd.",
-      "symbol": "MOMSBELIEF",
-      "segment": "Mainboard",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-03",
-      "listing_date": "2026-09-08",
-      "price_band": "₹227 to ₹239",
-      "issue_size_cr": 125.0,
-      "subscription": {
-        "total": 63.69
-      },
-      "source": "https://www.chittorgarh.com/ipo/rays-of-belief-ipo/2787/",
-      "details_url": "https://www.chittorgarh.com/ipo/rays-of-belief-ipo/2787/",
-      "status": "Listed",
-      "issue_price": 239.0,
-      "sale_type": "Fresh capital only",
-      "week1_move_pct": -8.38,
-      "week1_flag": false
-    },
-    {
-      "id": "deepa-jewellers-ipo-2827",
-      "company": "Deepa Jewellers Ltd.",
-      "symbol": "DEEPA",
-      "segment": "Mainboard",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-03",
-      "listing_date": "2026-09-08",
-      "price_band": "₹168 to ₹177",
-      "issue_size_cr": 460.0,
-      "subscription": {
-        "total": 30.49
-      },
-      "source": "https://www.chittorgarh.com/ipo/deepa-jewellers-ipo/2827/",
-      "details_url": "https://www.chittorgarh.com/ipo/deepa-jewellers-ipo/2827/",
-      "status": "Listed",
-      "issue_price": 177.0,
-      "sale_type": "Fresh capital cum OFS",
-      "week1_move_pct": -23.47,
       "week1_flag": true
     },
     {

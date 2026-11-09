@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T05:49:32+05:30",
+  "updated_at": "2026-11-09T16:07:35+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -967,9 +967,9 @@
       "issue_price": 700.0,
       "sale_type": "OFS only",
       "listing_date": "2026-10-23",
-      "week1_move_pct": -22.87,
+      "week1_move_pct": -24.86,
       "week1_flag": true,
-      "listing_price": 1470.0
+      "listing_price": 1509.0
     },
     {
       "id": "bonfiglioli-transmissions-ipo-2861",
@@ -1157,7 +1157,7 @@
       },
       "issue_price": 82.0,
       "listing_date": "2026-11-05",
-      "week1_move_pct": -5.97,
+      "week1_move_pct": -10.66,
       "week1_flag": false,
       "listing_price": 91.0
     },
@@ -1184,7 +1184,7 @@
       },
       "issue_price": 162.0,
       "listing_date": "2026-11-04",
-      "week1_move_pct": -7.65,
+      "week1_move_pct": -9.61,
       "week1_flag": false
     }
   ]

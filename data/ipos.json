@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T10:22:04+05:30",
+  "updated_at": "2026-11-12T19:44:51+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -1157,7 +1157,7 @@
       },
       "issue_price": 82.0,
       "listing_date": "2026-11-05",
-      "week1_move_pct": -10.99,
+      "week1_move_pct": -10.66,
       "week1_flag": false,
       "listing_price": 91.0
     },

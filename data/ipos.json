@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T03:10:28+05:30",
+  "updated_at": "2026-11-13T09:32:38+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -967,9 +967,9 @@
       "issue_price": 700.0,
       "sale_type": "OFS only",
       "listing_date": "2026-10-23",
-      "week1_move_pct": -25.85,
+      "week1_move_pct": -25.46,
       "week1_flag": true,
-      "listing_price": 1529.0
+      "listing_price": 1521.0
     },
     {
       "id": "bonfiglioli-transmissions-ipo-2861",
@@ -1186,6 +1186,22 @@
       "listing_date": "2026-11-04",
       "week1_move_pct": -9.61,
       "week1_flag": false
+    },
+    {
+      "id": "crystal-crop-protection-ipo-2813",
+      "company": "Crystal Crop Protection Ltd.",
+      "symbol": "",
+      "segment": "Mainboard",
+      "gmp": null,
+      "applications": null,
+      "first_seen": "2026-11-13",
+      "close_date": "2026-11-20",
+      "price_band": "₹259 to ₹272",
+      "issue_size_cr": 455.49,
+      "sale_type": "Fresh capital cum OFS",
+      "source": "https://www.chittorgarh.com/ipo/crystal-crop-protection-ipo/2813/",
+      "details_url": "https://www.chittorgarh.com/ipo/crystal-crop-protection-ipo/2813/",
+      "status": "Open"
     }
   ]
 }

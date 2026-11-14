@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T02:36:34+05:30",
+  "updated_at": "2026-11-14T09:31:02+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -1201,6 +1201,20 @@
       "sale_type": "Fresh capital cum OFS",
       "source": "https://www.chittorgarh.com/ipo/crystal-crop-protection-ipo/2813/",
       "details_url": "https://www.chittorgarh.com/ipo/crystal-crop-protection-ipo/2813/",
+      "status": "Open"
+    },
+    {
+      "id": "mahanadi-coalfields-ipo-3247",
+      "company": "Mahanadi Coalfields Ltd.",
+      "symbol": "",
+      "segment": "Mainboard",
+      "gmp": null,
+      "applications": null,
+      "first_seen": "2026-11-14",
+      "close_date": "2026-11-23",
+      "sale_type": "OFS only",
+      "source": "https://www.chittorgarh.com/ipo/mahanadi-coalfields-ipo/3247/",
+      "details_url": "https://www.chittorgarh.com/ipo/mahanadi-coalfields-ipo/3247/",
       "status": "Open"
     }
   ]

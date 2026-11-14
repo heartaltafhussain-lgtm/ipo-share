@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T18:13:24+05:30",
+  "updated_at": "2026-11-15T01:06:33+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -891,29 +891,6 @@
       "issue_price": 632.0,
       "sale_type": "Fresh capital cum OFS",
       "week1_move_pct": 26.99,
-      "week1_flag": true
-    },
-    {
-      "id": "pranav-constructions-ipo-2127",
-      "company": "Pranav Constructions Ltd.",
-      "symbol": "PRANAV",
-      "segment": "Mainboard",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-09",
-      "listing_date": "2026-09-15",
-      "price_band": "₹118 to ₹124",
-      "issue_size_cr": 351.0,
-      "subscription": {
-        "total": 95.39
-      },
-      "source": "https://www.chittorgarh.com/ipo/pranav-constructions-ipo/2127/",
-      "details_url": "https://www.chittorgarh.com/ipo/pranav-constructions-ipo/2127/",
-      "status": "Listed",
-      "issue_price": 124.0,
-      "sale_type": "Fresh capital cum OFS",
-      "week1_move_pct": -36.21,
       "week1_flag": true
     },
     {

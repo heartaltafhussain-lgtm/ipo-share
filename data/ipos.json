@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T23:41:47+05:30",
+  "updated_at": "2026-11-16T06:03:52+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -823,75 +823,6 @@
       "sale_type": "Fresh capital cum OFS",
       "week1_move_pct": 11.88,
       "week1_flag": false
-    },
-    {
-      "id": "glass-wall-systems-ipo-2594",
-      "company": "Glass Wall Systems (India) Ltd.",
-      "symbol": "GLASSWALL",
-      "segment": "Mainboard",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-10",
-      "listing_date": "2026-09-16",
-      "price_band": "₹172 to ₹182",
-      "issue_size_cr": 428.0,
-      "subscription": {
-        "total": 56.97
-      },
-      "source": "https://www.chittorgarh.com/ipo/glass-wall-systems-ipo/2594/",
-      "details_url": "https://www.chittorgarh.com/ipo/glass-wall-systems-ipo/2594/",
-      "status": "Listed",
-      "issue_price": 182.0,
-      "sale_type": "Fresh capital cum OFS",
-      "week1_move_pct": 59.43,
-      "week1_flag": true
-    },
-    {
-      "id": "prasol-chemicals-ipo-2775",
-      "company": "Prasol Chemicals Ltd.",
-      "symbol": "PRASOLCHEM",
-      "segment": "Mainboard",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-10",
-      "listing_date": "2026-09-16",
-      "price_band": "₹643 to ₹676",
-      "issue_size_cr": 500.0,
-      "subscription": {
-        "total": 2.71
-      },
-      "source": "https://www.chittorgarh.com/ipo/prasol-chemicals-ipo/2775/",
-      "details_url": "https://www.chittorgarh.com/ipo/prasol-chemicals-ipo/2775/",
-      "status": "Listed",
-      "issue_price": 676.0,
-      "sale_type": "Fresh capital cum OFS",
-      "week1_move_pct": 15.53,
-      "week1_flag": false
-    },
-    {
-      "id": "kanohar-electricals-ipo-2856",
-      "company": "Kanohar Electricals Ltd.",
-      "symbol": "KANOHAR",
-      "segment": "Mainboard",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-10",
-      "listing_date": "2026-09-16",
-      "price_band": "₹601 to ₹632",
-      "issue_size_cr": 1056.0,
-      "subscription": {
-        "total": 63.6
-      },
-      "source": "https://www.chittorgarh.com/ipo/kanohar-electricals-ipo/2856/",
-      "details_url": "https://www.chittorgarh.com/ipo/kanohar-electricals-ipo/2856/",
-      "status": "Listed",
-      "issue_price": 632.0,
-      "sale_type": "Fresh capital cum OFS",
-      "week1_move_pct": 26.99,
-      "week1_flag": true
     },
     {
       "id": "zetwerk-ipo-3091",

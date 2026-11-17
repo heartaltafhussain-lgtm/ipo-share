@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T11:12:00+05:30",
+  "updated_at": "2026-11-17T20:41:01+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -971,7 +971,10 @@
       "sale_type": "Fresh capital cum OFS",
       "source": "https://www.chittorgarh.com/ipo/crystal-crop-protection-ipo/2813/",
       "details_url": "https://www.chittorgarh.com/ipo/crystal-crop-protection-ipo/2813/",
-      "status": "Open"
+      "status": "Open",
+      "subscription": {
+        "total": 135.96
+      }
     },
     {
       "id": "mahanadi-coalfields-ipo-3247",

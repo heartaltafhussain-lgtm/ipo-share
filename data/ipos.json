@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T20:41:01+05:30",
+  "updated_at": "2026-11-18T05:43:16+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -661,29 +661,6 @@
       "issue_price": 43.0,
       "sale_type": "Fresh capital cum OFS",
       "week1_move_pct": -3.58,
-      "week1_flag": false
-    },
-    {
-      "id": "veegaland-developers-ipo-2834",
-      "company": "Veegaland Developers Ltd.",
-      "symbol": "VEEGALAND",
-      "segment": "Mainboard",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-15",
-      "listing_date": "2026-09-18",
-      "price_band": "₹130 to ₹140",
-      "issue_size_cr": 210.0,
-      "subscription": {
-        "total": 10.54
-      },
-      "source": "https://www.chittorgarh.com/ipo/veegaland-developers-ipo/2834/",
-      "details_url": "https://www.chittorgarh.com/ipo/veegaland-developers-ipo/2834/",
-      "status": "Listed",
-      "issue_price": 140.0,
-      "sale_type": "Fresh capital only",
-      "week1_move_pct": -9.19,
       "week1_flag": false
     },
     {

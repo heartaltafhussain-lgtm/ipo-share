@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T16:27:57+05:30",
+  "updated_at": "2026-11-20T01:16:15+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -952,9 +952,9 @@
       "subscription": {
         "total": 135.96,
         "qib": 2.23,
-        "nii": 3.34,
-        "retail": 3.2,
-        "employee": 5.04
+        "nii": 3.58,
+        "retail": 3.31,
+        "employee": 5.12
       }
     },
     {
@@ -975,10 +975,25 @@
       "subscription": {
         "qib": 1.26,
         "nii": 0.08,
-        "retail": 0.13,
+        "retail": 0.14,
         "employee": 0.05,
         "total": 0.38
       }
+    },
+    {
+      "id": "foodlink-fb-ipo-2493",
+      "company": "Foodlink F&B Holdings (India) Ltd.",
+      "symbol": "",
+      "segment": "Mainboard",
+      "gmp": null,
+      "applications": null,
+      "first_seen": "2026-11-20",
+      "close_date": "2026-11-30",
+      "issue_size_cr": 192.0,
+      "sale_type": "Fresh capital cum OFS",
+      "source": "https://www.chittorgarh.com/ipo/foodlink-fb-ipo/2493/",
+      "details_url": "https://www.chittorgarh.com/ipo/foodlink-fb-ipo/2493/",
+      "status": "Open"
     }
   ]
 }

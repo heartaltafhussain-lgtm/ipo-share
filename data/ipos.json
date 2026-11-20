@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T16:14:41+05:30",
+  "updated_at": "2026-11-21T00:57:10+05:30",
   "ipos": [
     {
       "id": "nse-2026",
@@ -638,32 +638,6 @@
       "week1_flag": true
     },
     {
-      "id": "manika-plastech-ipo-2483",
-      "company": "Manika Plastech Ltd.",
-      "symbol": "MANIKA",
-      "segment": "Mainboard",
-      "gmp": null,
-      "applications": null,
-      "first_seen": "2026-10-10",
-      "close_date": "2026-09-16",
-      "listing_date": "2026-09-21",
-      "price_band": "₹40 to ₹43",
-      "issue_size_cr": 125.0,
-      "subscription": {
-        "qib": 11.22,
-        "nii": 66.58,
-        "retail": 23.98,
-        "total": 29.46
-      },
-      "source": "https://www.chittorgarh.com/ipo/manika-plastech-ipo/2483/",
-      "details_url": "https://www.chittorgarh.com/ipo/manika-plastech-ipo/2483/",
-      "status": "Listed",
-      "issue_price": 43.0,
-      "sale_type": "Fresh capital cum OFS",
-      "week1_move_pct": -3.58,
-      "week1_flag": false
-    },
-    {
       "id": "zetwerk-ipo-3091",
       "company": "Zetwerk Manufacturing Business Ltd.",
       "symbol": "ZETWERK",
@@ -948,13 +922,13 @@
       "sale_type": "Fresh capital cum OFS",
       "source": "https://www.chittorgarh.com/ipo/crystal-crop-protection-ipo/2813/",
       "details_url": "https://www.chittorgarh.com/ipo/crystal-crop-protection-ipo/2813/",
-      "status": "Open",
+      "status": "Closed",
       "subscription": {
         "total": 135.96,
         "qib": 15.81,
-        "nii": 38.89,
-        "retail": 8.94,
-        "employee": 8.52
+        "nii": 39.16,
+        "retail": 9.71,
+        "employee": 8.67
       }
     },
     {
@@ -974,10 +948,10 @@
       "issue_size_cr": 8981.12,
       "subscription": {
         "qib": 1.37,
-        "nii": 0.16,
-        "retail": 0.24,
+        "nii": 0.18,
+        "retail": 0.25,
         "employee": 0.09,
-        "total": 0.48
+        "total": 0.49
       }
     },
     {

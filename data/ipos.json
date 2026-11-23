@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T06:46:47+05:30",
+  "updated_at": "2026-11-23T17:04:58+05:30",
   "ipos": [
     {
       "id": "sahajanand-medical-technologies-ipo-2550",
@@ -845,11 +845,11 @@
       "price_band": "₹129 to ₹136",
       "issue_size_cr": 8981.12,
       "subscription": {
-        "qib": 1.37,
-        "nii": 0.18,
-        "retail": 0.25,
-        "employee": 0.09,
-        "total": 0.49
+        "qib": 4.95,
+        "nii": 0.66,
+        "retail": 0.48,
+        "employee": 0.22,
+        "total": 1.52
       }
     },
     {
@@ -861,11 +861,12 @@
       "applications": null,
       "first_seen": "2026-11-20",
       "close_date": "2026-11-30",
-      "issue_size_cr": 192.0,
+      "issue_size_cr": 360.76,
       "sale_type": "Fresh capital cum OFS",
       "source": "https://www.chittorgarh.com/ipo/foodlink-fb-ipo/2493/",
       "details_url": "https://www.chittorgarh.com/ipo/foodlink-fb-ipo/2493/",
-      "status": "Open"
+      "status": "Open",
+      "price_band": "₹181 to ₹191"
     },
     {
       "id": "integris-medtech-ipo-2774",
@@ -895,6 +896,22 @@
       "sale_type": "Fresh capital only",
       "source": "https://www.chittorgarh.com/ipo/monomark-engineering-ipo/2972/",
       "details_url": "https://www.chittorgarh.com/ipo/monomark-engineering-ipo/2972/",
+      "status": "Open"
+    },
+    {
+      "id": "matangi-rubber-ipo-3136",
+      "company": "Matangi Rubber Ltd.",
+      "symbol": "",
+      "segment": "Mainboard",
+      "gmp": null,
+      "applications": null,
+      "first_seen": "2026-11-23",
+      "close_date": "2026-12-03",
+      "price_band": "₹163 to ₹172",
+      "issue_size_cr": 125.16,
+      "sale_type": "Fresh capital cum OFS",
+      "source": "https://www.chittorgarh.com/ipo/matangi-rubber-ipo/3136/",
+      "details_url": "https://www.chittorgarh.com/ipo/matangi-rubber-ipo/3136/",
       "status": "Open"
     }
   ]

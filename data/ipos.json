@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T01:20:26+05:30",
+  "updated_at": "2026-11-25T09:24:36+05:30",
   "ipos": [
     {
       "id": "sahajanand-medical-technologies-ipo-2550",
@@ -849,7 +849,9 @@
       "sale_type": "Fresh capital only",
       "source": "https://www.chittorgarh.com/ipo/monomark-engineering-ipo/2972/",
       "details_url": "https://www.chittorgarh.com/ipo/monomark-engineering-ipo/2972/",
-      "status": "Open"
+      "status": "Open",
+      "price_band": "₹60 to ₹65",
+      "issue_size_cr": 175.5
     },
     {
       "id": "matangi-rubber-ipo-3136",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T09:24:36+05:30",
+  "updated_at": "2026-11-25T21:58:21+05:30",
   "ipos": [
     {
       "id": "sahajanand-medical-technologies-ipo-2550",
@@ -762,7 +762,7 @@
     {
       "id": "crystal-crop-protection-ipo-2813",
       "company": "Crystal Crop Protection Ltd.",
-      "symbol": "",
+      "symbol": "CRYSTALCP",
       "segment": "Mainboard",
       "gmp": null,
       "applications": null,
@@ -780,7 +780,8 @@
         "nii": 39.16,
         "retail": 9.71,
         "employee": 8.67
-      }
+      },
+      "listing_date": "2026-11-26"
     },
     {
       "id": "mahanadi-coalfields-ipo-3247",
@@ -819,7 +820,10 @@
       "source": "https://www.chittorgarh.com/ipo/foodlink-fb-ipo/2493/",
       "details_url": "https://www.chittorgarh.com/ipo/foodlink-fb-ipo/2493/",
       "status": "Open",
-      "price_band": "₹181 to ₹191"
+      "price_band": "₹181 to ₹191",
+      "subscription": {
+        "total": 162.34
+      }
     },
     {
       "id": "integris-medtech-ipo-2774",

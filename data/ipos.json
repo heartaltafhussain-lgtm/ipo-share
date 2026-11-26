@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T06:50:49+05:30",
+  "updated_at": "2026-11-26T17:13:30+05:30",
   "ipos": [
     {
       "id": "sahajanand-medical-technologies-ipo-2550",
@@ -769,7 +769,7 @@
       "first_seen": "2026-11-13",
       "close_date": "2026-11-20",
       "price_band": "₹259 to ₹272",
-      "issue_size_cr": 455.49,
+      "issue_size_cr": 455.72,
       "sale_type": "Fresh capital cum OFS",
       "source": "https://www.chittorgarh.com/ipo/crystal-crop-protection-ipo/2813/",
       "details_url": "https://www.chittorgarh.com/ipo/crystal-crop-protection-ipo/2813/",
@@ -782,8 +782,10 @@
         "employee": 8.67
       },
       "listing_date": "2026-11-26",
-      "week1_move_pct": null,
-      "week1_flag": false
+      "week1_move_pct": -0.05,
+      "week1_flag": false,
+      "issue_price": 272.0,
+      "listing_price": 278.0
     },
     {
       "id": "mahanadi-coalfields-ipo-3247",
@@ -824,7 +826,10 @@
       "status": "Open",
       "price_band": "₹181 to ₹191",
       "subscription": {
-        "total": 162.34
+        "total": 162.34,
+        "qib": 1.0,
+        "nii": 0.41,
+        "retail": 2.41
       }
     },
     {

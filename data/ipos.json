@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T08:56:25+05:30",
+  "updated_at": "2026-11-27T21:20:52+05:30",
   "ipos": [
     {
       "id": "sahajanand-medical-technologies-ipo-2550",
@@ -782,7 +782,7 @@
         "employee": 8.67
       },
       "listing_date": "2026-11-26",
-      "week1_move_pct": -0.05,
+      "week1_move_pct": -5.25,
       "week1_flag": false,
       "issue_price": 272.0,
       "listing_price": 278.0
@@ -801,7 +801,7 @@
       "details_url": "https://www.chittorgarh.com/ipo/mahanadi-coalfields-ipo/3247/",
       "status": "Listed",
       "price_band": "₹129 to ₹136",
-      "issue_size_cr": 8981.12,
+      "issue_size_cr": 8997.52,
       "subscription": {
         "qib": 4.95,
         "nii": 0.66,
@@ -810,8 +810,10 @@
         "total": 1.52
       },
       "listing_date": "2026-11-27",
-      "week1_move_pct": null,
-      "week1_flag": false
+      "week1_move_pct": -1.12,
+      "week1_flag": false,
+      "issue_price": 136.0,
+      "listing_price": 134.0
     },
     {
       "id": "foodlink-fb-ipo-2493",
@@ -831,8 +833,8 @@
       "subscription": {
         "total": 162.34,
         "qib": 1.0,
-        "nii": 0.41,
-        "retail": 2.44
+        "nii": 0.74,
+        "retail": 4.09
       }
     },
     {
